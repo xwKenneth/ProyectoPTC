@@ -59,5 +59,26 @@ namespace SBPA.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Account_Avatar_Profile_PNG_Photo {
+            get {
+                object obj = ResourceManager.GetObject("Account-Avatar-Profile-PNG-Photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_computer_icons_user_profile_avatar_profile_heroes_profile_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-computer-icons-user-profile-avatar-profile-heroes-profile-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

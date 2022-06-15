@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+RUDKWJAz9v12hcq6WXGkzHgrwyE2967p0eE5PxYns1xbg6bcGzlhluUQ/309raxBTSofosLyMxMqhTjMQGV0w==",
+  "dgSpecHash": "SYjunOlJslmDRWJuznF1EeE+LTzi6aNSsDsHSTt31BZPjSZNN5C0QLHKFbMlU1Nn/+1StD8u/MHlT3wWJkFaVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\test\\LoginProyectoPTC\\SBPA.csproj",
+  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Documents\\Documents\\Documentos de trabajo\\trabajos ricaldone\\Expo Trabajo\\LoginProyectoPTC\\SBPA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\control.draggable\\1.0.5049.269\\control.draggable.1.0.5049.269.nupkg.sha512",
