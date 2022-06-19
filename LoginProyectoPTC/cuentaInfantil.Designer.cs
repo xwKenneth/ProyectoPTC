@@ -73,6 +73,7 @@ namespace SBPA
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 200);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
             // textBox4
             // 
@@ -287,6 +288,7 @@ namespace SBPA
             this.Name = "cuentaInfantil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cuenta de ahorro infantil";
+            this.Load += new System.EventHandler(this.cuentaInfantil_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -68,6 +68,7 @@ namespace SBPA
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(744, 152);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // pictureBox1
             // 
@@ -107,7 +108,6 @@ namespace SBPA
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(194, 23);
             this.txtNombre.TabIndex = 6;
-            this.txtNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label3
             // 
@@ -206,7 +206,6 @@ namespace SBPA
             this.dgvDato.RowTemplate.Height = 25;
             this.dgvDato.Size = new System.Drawing.Size(744, 172);
             this.dgvDato.TabIndex = 14;
-            this.dgvDato.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDato_CellContentClick);
             // 
             // label7
             // 
@@ -246,7 +245,6 @@ namespace SBPA
             this.btnAgregar.TabIndex = 17;
             this.btnAgregar.Text = "Agregar cuenta";
             this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.button1_Click);
             // 
             // cuentaAhorro
             // 
@@ -268,6 +266,7 @@ namespace SBPA
             this.Name = "cuentaAhorro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cuenta de ahorro";
+            this.Load += new System.EventHandler(this.cuentaAhorro_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

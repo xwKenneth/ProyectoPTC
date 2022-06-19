@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace SBPA
 {
-
-    public partial class certificadosLargoplazo : Form
+    public partial class PrestamosPersonales : Form
     {
+
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -21,18 +21,18 @@ namespace SBPA
         public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
         [DllImportAttribute("user32.dll")]
         public static extern bool ReleaseCapture();
-
-        public certificadosLargoplazo()
+        public PrestamosPersonales()
         {
             InitializeComponent();
+         
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void PrestamosPersonales_MouseMove(object sender, MouseEventArgs e)
         {
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void PrestamosPersonales_Load(object sender, EventArgs e)
         {
             this.Draggable(true);
         }

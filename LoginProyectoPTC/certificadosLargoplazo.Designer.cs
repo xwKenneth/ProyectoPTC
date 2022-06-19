@@ -71,6 +71,7 @@ namespace SBPA
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(739, 166);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // txtCuenta
             // 
@@ -139,7 +140,6 @@ namespace SBPA
             // 
             // pictureBox1
             // 
-           // this.pictureBox1.Image = global::certificadosLargoplazo.Properties.Resources.Account_Avatar_Profile_PNG_Photo;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(146, 145);
@@ -273,7 +273,7 @@ namespace SBPA
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // certificadosLargoplazo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -293,7 +293,7 @@ namespace SBPA
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "certificadosLargoplazo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

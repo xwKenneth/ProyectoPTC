@@ -43,6 +43,7 @@ namespace SBPA
             this.pnlNav = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnCeuntaInfantil = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -51,6 +52,7 @@ namespace SBPA
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.btnCeuntaInfantil);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnBuscar);
             this.panel1.Controls.Add(this.btnPrestamos);
@@ -87,17 +89,18 @@ namespace SBPA
             // 
             // btnPrestamos
             // 
-            this.btnPrestamos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPrestamos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnPrestamos.FlatAppearance.BorderSize = 0;
             this.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPrestamos.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnPrestamos.ForeColor = System.Drawing.Color.White;
-            this.btnPrestamos.Location = new System.Drawing.Point(0, 243);
+            this.btnPrestamos.Location = new System.Drawing.Point(0, 278);
             this.btnPrestamos.Name = "btnPrestamos";
             this.btnPrestamos.Size = new System.Drawing.Size(186, 33);
             this.btnPrestamos.TabIndex = 5;
             this.btnPrestamos.Text = "Prestamos personales";
             this.btnPrestamos.UseVisualStyleBackColor = true;
+            this.btnPrestamos.Click += new System.EventHandler(this.btnPrestamos_Click);
             // 
             // btnCerrar
             // 
@@ -110,40 +113,42 @@ namespace SBPA
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(186, 33);
             this.btnCerrar.TabIndex = 4;
-            this.btnCerrar.Text = "Cerrar seción";
+            this.btnCerrar.Text = "Cerrar sesión";
             this.btnCerrar.UseVisualStyleBackColor = true;
             // 
             // btnCertificados
             // 
-            this.btnCertificados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCertificados.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCertificados.FlatAppearance.BorderSize = 0;
             this.btnCertificados.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCertificados.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCertificados.ForeColor = System.Drawing.Color.White;
-            this.btnCertificados.Location = new System.Drawing.Point(0, 210);
+            this.btnCertificados.Location = new System.Drawing.Point(0, 212);
             this.btnCertificados.Name = "btnCertificados";
             this.btnCertificados.Size = new System.Drawing.Size(186, 33);
             this.btnCertificados.TabIndex = 3;
             this.btnCertificados.Text = "certificados a plazo";
             this.btnCertificados.UseVisualStyleBackColor = true;
+            this.btnCertificados.Click += new System.EventHandler(this.btnCertificados_Click);
             // 
             // btnHipotecarios
             // 
-            this.btnHipotecarios.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHipotecarios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnHipotecarios.FlatAppearance.BorderSize = 0;
             this.btnHipotecarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHipotecarios.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnHipotecarios.ForeColor = System.Drawing.Color.White;
-            this.btnHipotecarios.Location = new System.Drawing.Point(0, 177);
+            this.btnHipotecarios.Location = new System.Drawing.Point(0, 246);
             this.btnHipotecarios.Name = "btnHipotecarios";
             this.btnHipotecarios.Size = new System.Drawing.Size(186, 33);
             this.btnHipotecarios.TabIndex = 2;
             this.btnHipotecarios.Text = "Prestamos hipotecarios";
             this.btnHipotecarios.UseVisualStyleBackColor = true;
+            this.btnHipotecarios.Click += new System.EventHandler(this.btnHipotecarios_Click);
             // 
             // btnAhorro
             // 
-            this.btnAhorro.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAhorro.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAhorro.FlatAppearance.BorderSize = 0;
             this.btnAhorro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAhorro.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -154,6 +159,7 @@ namespace SBPA
             this.btnAhorro.TabIndex = 1;
             this.btnAhorro.Text = "Cuenta de ahorro";
             this.btnAhorro.UseVisualStyleBackColor = true;
+            this.btnAhorro.Click += new System.EventHandler(this.btnAhorro_Click);
             // 
             // panel2
             // 
@@ -209,6 +215,20 @@ namespace SBPA
             this.panel5.Size = new System.Drawing.Size(766, 14);
             this.panel5.TabIndex = 4;
             // 
+            // btnCeuntaInfantil
+            // 
+            this.btnCeuntaInfantil.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCeuntaInfantil.FlatAppearance.BorderSize = 0;
+            this.btnCeuntaInfantil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCeuntaInfantil.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCeuntaInfantil.ForeColor = System.Drawing.Color.White;
+            this.btnCeuntaInfantil.Location = new System.Drawing.Point(3, 177);
+            this.btnCeuntaInfantil.Name = "btnCeuntaInfantil";
+            this.btnCeuntaInfantil.Size = new System.Drawing.Size(186, 33);
+            this.btnCeuntaInfantil.TabIndex = 7;
+            this.btnCeuntaInfantil.Text = "Cuenta Infantil";
+            this.btnCeuntaInfantil.UseVisualStyleBackColor = true;
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -247,6 +267,7 @@ namespace SBPA
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button btnCeuntaInfantil;
     }
 }
 

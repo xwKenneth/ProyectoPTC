@@ -75,6 +75,7 @@ namespace SBPA
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(772, 130);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
             // label1
             // 
@@ -118,7 +119,6 @@ namespace SBPA
             this.label3.Size = new System.Drawing.Size(144, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Fecha de Nacimietno ";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -404,6 +404,7 @@ namespace SBPA
             this.Name = "creacionCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.creacionCliente_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
