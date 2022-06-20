@@ -36,7 +36,6 @@ namespace SBPA
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -51,7 +50,6 @@ namespace SBPA
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -142,23 +140,12 @@ namespace SBPA
             this.label5.TabIndex = 4;
             this.label5.Text = "Dirección";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(381, 215);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(28, 16);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "NIT";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(587, 215);
+            this.label7.Location = new System.Drawing.Point(328, 215);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(137, 16);
             this.label7.TabIndex = 6;
@@ -180,7 +167,7 @@ namespace SBPA
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(597, 284);
+            this.label10.Location = new System.Drawing.Point(592, 215);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(116, 16);
             this.label10.TabIndex = 8;
@@ -202,7 +189,7 @@ namespace SBPA
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(603, 358);
+            this.label12.Location = new System.Drawing.Point(603, 284);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(105, 16);
             this.label12.TabIndex = 11;
@@ -235,7 +222,7 @@ namespace SBPA
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(320, 429);
+            this.label14.Location = new System.Drawing.Point(55, 439);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(151, 16);
             this.label14.TabIndex = 15;
@@ -246,7 +233,7 @@ namespace SBPA
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(100, 429);
+            this.label16.Location = new System.Drawing.Point(603, 358);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(81, 16);
             this.label16.TabIndex = 13;
@@ -259,7 +246,7 @@ namespace SBPA
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(645, 460);
+            this.btnAgregar.Location = new System.Drawing.Point(608, 455);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(115, 48);
             this.btnAgregar.TabIndex = 16;
@@ -294,16 +281,9 @@ namespace SBPA
             this.textBox3.Size = new System.Drawing.Size(171, 23);
             this.textBox3.TabIndex = 20;
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(310, 244);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(171, 23);
-            this.textBox4.TabIndex = 21;
-            // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(570, 244);
+            this.textBox5.Location = new System.Drawing.Point(311, 244);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(171, 23);
             this.textBox5.TabIndex = 22;
@@ -324,7 +304,7 @@ namespace SBPA
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(570, 315);
+            this.textBox8.Location = new System.Drawing.Point(565, 246);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(171, 23);
             this.textBox8.TabIndex = 25;
@@ -345,21 +325,21 @@ namespace SBPA
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(570, 390);
+            this.textBox11.Location = new System.Drawing.Point(570, 316);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(171, 23);
             this.textBox11.TabIndex = 28;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(43, 460);
+            this.textBox12.Location = new System.Drawing.Point(546, 389);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(194, 23);
             this.textBox12.TabIndex = 29;
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(310, 460);
+            this.textBox13.Location = new System.Drawing.Point(45, 470);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(171, 23);
             this.textBox13.TabIndex = 30;
@@ -379,7 +359,6 @@ namespace SBPA
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.dateTimePicker1);
@@ -392,7 +371,6 @@ namespace SBPA
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
@@ -422,7 +400,6 @@ namespace SBPA
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -437,7 +414,6 @@ namespace SBPA
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
