@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data;
 using MySql.Data.MySqlClient;
-using MySql.Data.MySqlClient;
 
 namespace SBPA
 {
@@ -17,7 +16,7 @@ namespace SBPA
         {
             usuario = "root";
             servidor = "127.0.0.1";
-            db = "LatamGames";
+            db = "Datos_BancoAmericano";
             cadena = "server=" + servidor + ";uid=" +
                 usuario + ";" + "database=" + db;
 
