@@ -46,19 +46,19 @@ namespace SBPA
             this.label14 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
+            this.txtDui = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtLugarNacimiento = new System.Windows.Forms.TextBox();
+            this.txtNombrePadre = new System.Windows.Forms.TextBox();
+            this.txtNombreMadre = new System.Windows.Forms.TextBox();
+            this.txtLugarTrabajo = new System.Windows.Forms.TextBox();
+            this.txtNumeroCasa = new System.Windows.Forms.TextBox();
+            this.txtTelefenoTrabajo = new System.Windows.Forms.TextBox();
+            this.txtnumeroCelular = new System.Windows.Forms.TextBox();
+            this.txtBeneficiario = new System.Windows.Forms.TextBox();
+            this.txtSalarioMensual = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -252,97 +252,99 @@ namespace SBPA
             this.btnAgregar.TabIndex = 16;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(43, 176);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 23);
-            this.textBox1.TabIndex = 17;
+            this.txtNombre.Location = new System.Drawing.Point(43, 176);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(194, 23);
+            this.txtNombre.TabIndex = 17;
             // 
-            // dateTimePicker1
+            // dtpFechaNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(288, 176);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(215, 23);
-            this.dateTimePicker1.TabIndex = 18;
+            this.dtpFechaNacimiento.CustomFormat = "";
+            this.dtpFechaNacimiento.Location = new System.Drawing.Point(288, 176);
+            this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(215, 23);
+            this.dtpFechaNacimiento.TabIndex = 18;
             // 
-            // textBox2
+            // txtDui
             // 
-            this.textBox2.Location = new System.Drawing.Point(587, 176);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(136, 23);
-            this.textBox2.TabIndex = 19;
+            this.txtDui.Location = new System.Drawing.Point(587, 176);
+            this.txtDui.Name = "txtDui";
+            this.txtDui.Size = new System.Drawing.Size(136, 23);
+            this.txtDui.TabIndex = 19;
             // 
-            // textBox3
+            // txtDireccion
             // 
-            this.textBox3.Location = new System.Drawing.Point(55, 244);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(171, 23);
-            this.textBox3.TabIndex = 20;
+            this.txtDireccion.Location = new System.Drawing.Point(55, 244);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(171, 23);
+            this.txtDireccion.TabIndex = 20;
             // 
-            // textBox5
+            // txtLugarNacimiento
             // 
-            this.textBox5.Location = new System.Drawing.Point(311, 244);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(171, 23);
-            this.textBox5.TabIndex = 22;
+            this.txtLugarNacimiento.Location = new System.Drawing.Point(311, 244);
+            this.txtLugarNacimiento.Name = "txtLugarNacimiento";
+            this.txtLugarNacimiento.Size = new System.Drawing.Size(171, 23);
+            this.txtLugarNacimiento.TabIndex = 22;
             // 
-            // textBox6
+            // txtNombrePadre
             // 
-            this.textBox6.Location = new System.Drawing.Point(43, 315);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(194, 23);
-            this.textBox6.TabIndex = 23;
+            this.txtNombrePadre.Location = new System.Drawing.Point(43, 315);
+            this.txtNombrePadre.Name = "txtNombrePadre";
+            this.txtNombrePadre.Size = new System.Drawing.Size(194, 23);
+            this.txtNombrePadre.TabIndex = 23;
             // 
-            // textBox7
+            // txtNombreMadre
             // 
-            this.textBox7.Location = new System.Drawing.Point(299, 315);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(193, 23);
-            this.textBox7.TabIndex = 24;
+            this.txtNombreMadre.Location = new System.Drawing.Point(299, 315);
+            this.txtNombreMadre.Name = "txtNombreMadre";
+            this.txtNombreMadre.Size = new System.Drawing.Size(193, 23);
+            this.txtNombreMadre.TabIndex = 24;
             // 
-            // textBox8
+            // txtLugarTrabajo
             // 
-            this.textBox8.Location = new System.Drawing.Point(565, 246);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(171, 23);
-            this.textBox8.TabIndex = 25;
+            this.txtLugarTrabajo.Location = new System.Drawing.Point(565, 246);
+            this.txtLugarTrabajo.Name = "txtLugarTrabajo";
+            this.txtLugarTrabajo.Size = new System.Drawing.Size(171, 23);
+            this.txtLugarTrabajo.TabIndex = 25;
             // 
-            // textBox9
+            // txtNumeroCasa
             // 
-            this.textBox9.Location = new System.Drawing.Point(55, 390);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(171, 23);
-            this.textBox9.TabIndex = 26;
+            this.txtNumeroCasa.Location = new System.Drawing.Point(55, 390);
+            this.txtNumeroCasa.Name = "txtNumeroCasa";
+            this.txtNumeroCasa.Size = new System.Drawing.Size(171, 23);
+            this.txtNumeroCasa.TabIndex = 26;
             // 
-            // textBox10
+            // txtTelefenoTrabajo
             // 
-            this.textBox10.Location = new System.Drawing.Point(310, 390);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(171, 23);
-            this.textBox10.TabIndex = 27;
+            this.txtTelefenoTrabajo.Location = new System.Drawing.Point(310, 390);
+            this.txtTelefenoTrabajo.Name = "txtTelefenoTrabajo";
+            this.txtTelefenoTrabajo.Size = new System.Drawing.Size(171, 23);
+            this.txtTelefenoTrabajo.TabIndex = 27;
             // 
-            // textBox11
+            // txtnumeroCelular
             // 
-            this.textBox11.Location = new System.Drawing.Point(570, 316);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(171, 23);
-            this.textBox11.TabIndex = 28;
+            this.txtnumeroCelular.Location = new System.Drawing.Point(570, 316);
+            this.txtnumeroCelular.Name = "txtnumeroCelular";
+            this.txtnumeroCelular.Size = new System.Drawing.Size(171, 23);
+            this.txtnumeroCelular.TabIndex = 28;
             // 
-            // textBox12
+            // txtBeneficiario
             // 
-            this.textBox12.Location = new System.Drawing.Point(546, 389);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(194, 23);
-            this.textBox12.TabIndex = 29;
+            this.txtBeneficiario.Location = new System.Drawing.Point(546, 389);
+            this.txtBeneficiario.Name = "txtBeneficiario";
+            this.txtBeneficiario.Size = new System.Drawing.Size(194, 23);
+            this.txtBeneficiario.TabIndex = 29;
             // 
-            // textBox13
+            // txtSalarioMensual
             // 
-            this.textBox13.Location = new System.Drawing.Point(45, 470);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(171, 23);
-            this.textBox13.TabIndex = 30;
+            this.txtSalarioMensual.Location = new System.Drawing.Point(45, 470);
+            this.txtSalarioMensual.Name = "txtSalarioMensual";
+            this.txtSalarioMensual.Size = new System.Drawing.Size(171, 23);
+            this.txtSalarioMensual.TabIndex = 30;
             // 
             // creacionCliente
             // 
@@ -350,19 +352,19 @@ namespace SBPA
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(772, 520);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSalarioMensual);
+            this.Controls.Add(this.txtBeneficiario);
+            this.Controls.Add(this.txtnumeroCelular);
+            this.Controls.Add(this.txtTelefenoTrabajo);
+            this.Controls.Add(this.txtNumeroCasa);
+            this.Controls.Add(this.txtLugarTrabajo);
+            this.Controls.Add(this.txtNombreMadre);
+            this.Controls.Add(this.txtNombrePadre);
+            this.Controls.Add(this.txtLugarNacimiento);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtDui);
+            this.Controls.Add(this.dtpFechaNacimiento);
+            this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label16);
@@ -410,19 +412,19 @@ namespace SBPA
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnAgregar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
+        private System.Windows.Forms.TextBox txtDui;
+        private System.Windows.Forms.TextBox txtDireccion;
+        private System.Windows.Forms.TextBox txtLugarNacimiento;
+        private System.Windows.Forms.TextBox txtNombrePadre;
+        private System.Windows.Forms.TextBox txtNombreMadre;
+        private System.Windows.Forms.TextBox txtLugarTrabajo;
+        private System.Windows.Forms.TextBox txtNumeroCasa;
+        private System.Windows.Forms.TextBox txtTelefenoTrabajo;
+        private System.Windows.Forms.TextBox txtnumeroCelular;
+        private System.Windows.Forms.TextBox txtBeneficiario;
+        private System.Windows.Forms.TextBox txtSalarioMensual;
     }
 }
 

@@ -72,5 +72,11 @@ namespace SBPA
             cuentaInfantil f7 = new cuentaInfantil();
             f7.Show();
         }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            creacionCliente f8 = new creacionCliente();
+            f8.Show();
+        }
     }
 }

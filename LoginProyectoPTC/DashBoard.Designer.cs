@@ -98,6 +98,7 @@ namespace SBPA
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
+            this.btnCrearCuenta = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -126,6 +127,7 @@ namespace SBPA
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.btnCrearCuenta);
             this.panel1.Controls.Add(this.btnCeuntaInfantil);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnBuscar);
@@ -978,6 +980,21 @@ namespace SBPA
             this.label23.TabIndex = 10;
             this.label23.Text = resources.GetString("label23.Text");
             // 
+            // btnCrearCuenta
+            // 
+            this.btnCrearCuenta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCrearCuenta.FlatAppearance.BorderSize = 0;
+            this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCrearCuenta.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
+            this.btnCrearCuenta.Location = new System.Drawing.Point(-3, 337);
+            this.btnCrearCuenta.Name = "btnCrearCuenta";
+            this.btnCrearCuenta.Size = new System.Drawing.Size(186, 33);
+            this.btnCrearCuenta.TabIndex = 8;
+            this.btnCrearCuenta.Text = "Crear Cuenta";
+            this.btnCrearCuenta.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -1110,6 +1127,7 @@ namespace SBPA
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Button btnCrearCuenta;
     }
 }
 
