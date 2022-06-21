@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenne\\source\\repos\\ProyectoPTC\\LoginProyectoPTC\\SBPA.csproj": {}
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\folderDeprueba\\LoginProyectoPTC\\SBPA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenne\\source\\repos\\ProyectoPTC\\LoginProyectoPTC\\SBPA.csproj": {
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\folderDeprueba\\LoginProyectoPTC\\SBPA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenne\\source\\repos\\ProyectoPTC\\LoginProyectoPTC\\SBPA.csproj",
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\folderDeprueba\\LoginProyectoPTC\\SBPA.csproj",
         "projectName": "SBPA",
-        "projectPath": "C:\\Users\\kenne\\source\\repos\\ProyectoPTC\\LoginProyectoPTC\\SBPA.csproj",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\folderDeprueba\\LoginProyectoPTC\\SBPA.csproj",
         "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenne\\source\\repos\\ProyectoPTC\\LoginProyectoPTC\\obj\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\folderDeprueba\\LoginProyectoPTC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
