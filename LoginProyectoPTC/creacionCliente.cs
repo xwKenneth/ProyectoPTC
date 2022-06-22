@@ -44,21 +44,21 @@ namespace SBPA
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-         string Nombre = txtNombre.Text;
+            string Nombre = txtNombre.Text;
             string FechaNacimiento = Convert.ToDateTime(dtpFechaNacimiento.Text).ToString("yyyy-MM-dd");
-         string Dui = txtDui.Text;
-         string Direccion = txtDireccion.Text;
-         string LugarNacimiento = txtLugarNacimiento.Text;
-         string LugarTrabajo = txtLugarTrabajo.Text;
-         string NombrePadre = txtNombrePadre.Text;
-         string NombreMadre = txtNombreMadre.Text;
-         string NumeroCelular = txtnumeroCelular.Text;
-         string NumeroCasa = txtNumeroCasa.Text;
-         string TelefonoTrabajo = txtTelefenoTrabajo.Text;
-         string Beneficiario = txtBeneficiario.Text;
-         int SalarioMensual= int.Parse(txtSalarioMensual.Text.ToString());
-        creacionClienteSql pro = new creacionClienteSql(Nombre, FechaNacimiento, Dui, Direccion, LugarNacimiento, LugarTrabajo, NombrePadre,
-            NombreMadre, NumeroCelular, NumeroCasa, TelefonoTrabajo, Beneficiario, SalarioMensual);
+            string Dui = txtDui.Text;
+            string Direccion = txtDireccion.Text;
+            string LugarNacimiento = txtLugarNacimiento.Text;
+            string LugarTrabajo = txtLugarTrabajo.Text;
+            string NombrePadre = txtNombrePadre.Text;
+            string NombreMadre = txtNombreMadre.Text;
+            string NumeroCelular = txtnumeroCelular.Text;
+            string NumeroCasa = txtNumeroCasa.Text;
+            string TelefonoTrabajo = txtTelefenoTrabajo.Text;
+            string Beneficiario = txtBeneficiario.Text;
+            int SalarioMensual = int.Parse(txtSalarioMensual.Text.ToString());
+            creacionClienteSql pro = new creacionClienteSql(Nombre, FechaNacimiento, Dui, Direccion, LugarNacimiento, LugarTrabajo, NombrePadre,
+                NombreMadre, NumeroCelular, NumeroCasa, TelefonoTrabajo, Beneficiario, SalarioMensual);
 
             if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtDireccion.Text)
                 || string.IsNullOrEmpty(txtLugarNacimiento.Text) || string.IsNullOrEmpty(txtLugarTrabajo.Text) || string.IsNullOrEmpty(txtNombrePadre.Text)
