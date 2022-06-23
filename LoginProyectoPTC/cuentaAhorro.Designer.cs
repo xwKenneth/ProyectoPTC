@@ -133,6 +133,7 @@ namespace SBPA
             this.txtDui.Name = "txtDui";
             this.txtDui.Size = new System.Drawing.Size(132, 27);
             this.txtDui.TabIndex = 7;
+            this.txtDui.TextChanged += new System.EventHandler(this.txtDui_TextChanged);
             this.txtDui.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDui_KeyPress);
             // 
             // label4

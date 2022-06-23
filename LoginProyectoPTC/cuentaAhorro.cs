@@ -218,28 +218,12 @@ namespace SBPA
 
         private void txtNumeroCuenta_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else if (Char.IsSeparator(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-            else
-            {
-                e.Handled = true;
-                MessageBox.Show("Solo se admiten letras", "validación de texto", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
+
         }
 
         private void txtAhorrado_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar))
+            if (char.IsDigit(e.KeyChar))
             {
                 e.Handled = false;
             }
@@ -247,20 +231,20 @@ namespace SBPA
             {
                 e.Handled = false;
             }
-            else if (Char.IsSeparator(e.KeyChar))
+            else if ((e.KeyChar == '.') && (!txtAhorrado.Text.Contains(".")))
             {
                 e.Handled = false;
             }
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo se admiten letras", "validación de texto", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void txtAbonar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar))
+            if (char.IsDigit(e.KeyChar))
             {
                 e.Handled = false;
             }
@@ -268,20 +252,20 @@ namespace SBPA
             {
                 e.Handled = false;
             }
-            else if (Char.IsSeparator(e.KeyChar))
+            else if ((e.KeyChar == '.') && (!txtAbonar.Text.Contains(".")))
             {
                 e.Handled = false;
             }
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo se admiten letras", "validación de texto", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
         private void txtRetirar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsLetter(e.KeyChar))
+            if (char.IsDigit(e.KeyChar))
             {
                 e.Handled = false;
             }
@@ -289,15 +273,20 @@ namespace SBPA
             {
                 e.Handled = false;
             }
-            else if (Char.IsSeparator(e.KeyChar))
+            else if ((e.KeyChar == '.') && (!txtRetirar.Text.Contains(".")))
             {
                 e.Handled = false;
             }
             else
             {
                 e.Handled = true;
-                MessageBox.Show("Solo se admiten letras", "validación de texto", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+        }
+
+        private void txtDui_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
