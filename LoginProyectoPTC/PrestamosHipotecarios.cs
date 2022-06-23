@@ -25,7 +25,8 @@ namespace SBPA
         {
             InitializeComponent();
         }
-
+     
+  
         private void PrestamosHipotecarios_Load(object sender, EventArgs e)
         {
             this.Draggable(true);
