@@ -78,5 +78,10 @@ namespace SBPA
             creacionCliente f8 = new creacionCliente();
             f8.Show();
         }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
