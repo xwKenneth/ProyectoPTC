@@ -74,6 +74,17 @@ namespace SBPA
                 {
                     MessageBox.Show("Producto agregado exitosamente",
                         "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtNombre.Clear();
+                    txtDui.Clear();
+                    txtDireccion.Clear();
+                    txtLugarNacimiento.Clear();
+                    txtLugarTrabajo.Clear();
+                    txtNombrePadre.Clear();
+                    txtNombreMadre.Clear();
+                    txtnumeroCelular.Clear();
+                    txtTelefenoTrabajo.Clear();
+                    txtBeneficiario.Clear();
+                    txtSalarioMensual.Clear();
                 }
                 else
                 {

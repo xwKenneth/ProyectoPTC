@@ -39,5 +39,29 @@ namespace SBPA
         {
             this.Draggable(true);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nombrePadre = txtNombrepadre.Text;
+            string nombreMadre = txtNombremadre.Text;
+            string nombreCuenta = txtNumerocuenta.Text;
+            string NombreBeneficiario = txtNombrebeneficiario.Text;
+            int saldoAhorrado =  int.Parse(txtSaldoahorrado.Text.ToString());
+            int saldoRetirar = int.Parse(txtRetirar.Text.ToString());
+            int saldoAbonar = int.Parse(txtSaldoabonar.Text.ToString());
+
+            cuenataInfantilSql i = new cuenataInfantilSql(nombrePadre, nombreMadre, nombreCuenta, NombreBeneficiario, saldoAhorrado, saldoRetirar, saldoAbonar);
+            if (i.agregar() == true)
+            {
+                MessageBox.Show("Datos ingresados correctamente",
+                       "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Error",
+                       "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
     }
 }

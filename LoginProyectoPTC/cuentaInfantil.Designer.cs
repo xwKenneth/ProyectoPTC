@@ -29,11 +29,12 @@ namespace SBPA
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNombrebeneficiario = new System.Windows.Forms.TextBox();
+            this.txtNumerocuenta = new System.Windows.Forms.TextBox();
+            this.txtNombremadre = new System.Windows.Forms.TextBox();
+            this.txtNombrepadre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,23 +46,27 @@ namespace SBPA
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.txtSaldoahorrado = new System.Windows.Forms.TextBox();
+            this.txtSaldoabonar = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtRetirar = new System.Windows.Forms.TextBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.txtNombrebeneficiario);
+            this.panel1.Controls.Add(this.txtNumerocuenta);
+            this.panel1.Controls.Add(this.txtNombremadre);
+            this.panel1.Controls.Add(this.txtNombrepadre);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
@@ -75,33 +80,33 @@ namespace SBPA
             this.panel1.TabIndex = 0;
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
-            // textBox4
+            // txtNombrebeneficiario
             // 
-            this.textBox4.Location = new System.Drawing.Point(395, 161);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(167, 23);
-            this.textBox4.TabIndex = 9;
+            this.txtNombrebeneficiario.Location = new System.Drawing.Point(395, 161);
+            this.txtNombrebeneficiario.Name = "txtNombrebeneficiario";
+            this.txtNombrebeneficiario.Size = new System.Drawing.Size(167, 23);
+            this.txtNombrebeneficiario.TabIndex = 9;
             // 
-            // textBox3
+            // txtNumerocuenta
             // 
-            this.textBox3.Location = new System.Drawing.Point(395, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 8;
+            this.txtNumerocuenta.Location = new System.Drawing.Point(395, 128);
+            this.txtNumerocuenta.Name = "txtNumerocuenta";
+            this.txtNumerocuenta.Size = new System.Drawing.Size(100, 23);
+            this.txtNumerocuenta.TabIndex = 8;
             // 
-            // textBox2
+            // txtNombremadre
             // 
-            this.textBox2.Location = new System.Drawing.Point(395, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(167, 23);
-            this.textBox2.TabIndex = 7;
+            this.txtNombremadre.Location = new System.Drawing.Point(395, 88);
+            this.txtNombremadre.Name = "txtNombremadre";
+            this.txtNombremadre.Size = new System.Drawing.Size(167, 23);
+            this.txtNombremadre.TabIndex = 7;
             // 
-            // textBox1
+            // txtNombrepadre
             // 
-            this.textBox1.Location = new System.Drawing.Point(395, 54);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 23);
-            this.textBox1.TabIndex = 6;
+            this.txtNombrepadre.Location = new System.Drawing.Point(395, 54);
+            this.txtNombrepadre.Name = "txtNombrepadre";
+            this.txtNombrepadre.Size = new System.Drawing.Size(167, 23);
+            this.txtNombrepadre.TabIndex = 6;
             // 
             // label5
             // 
@@ -212,61 +217,84 @@ namespace SBPA
             this.label8.TabIndex = 4;
             this.label8.Text = "Saldo";
             // 
-            // textBox5
+            // txtSaldoahorrado
             // 
-            this.textBox5.Location = new System.Drawing.Point(298, 253);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(131, 23);
-            this.textBox5.TabIndex = 5;
+            this.txtSaldoahorrado.Location = new System.Drawing.Point(298, 253);
+            this.txtSaldoahorrado.Name = "txtSaldoahorrado";
+            this.txtSaldoahorrado.Size = new System.Drawing.Size(131, 23);
+            this.txtSaldoahorrado.TabIndex = 5;
             // 
-            // textBox6
+            // txtSaldoabonar
             // 
-            this.textBox6.Location = new System.Drawing.Point(298, 313);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(131, 23);
-            this.textBox6.TabIndex = 6;
+            this.txtSaldoabonar.Location = new System.Drawing.Point(298, 313);
+            this.txtSaldoabonar.Name = "txtSaldoabonar";
+            this.txtSaldoabonar.Size = new System.Drawing.Size(131, 23);
+            this.txtSaldoabonar.TabIndex = 6;
             // 
-            // button1
+            // btnAgregar
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(627, 220);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 63);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Agregar cuenta";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAgregar.BackColor = System.Drawing.Color.Black;
+            this.btnAgregar.FlatAppearance.BorderSize = 0;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(627, 220);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(113, 63);
+            this.btnAgregar.TabIndex = 7;
+            this.btnAgregar.Text = "Agregar cuenta";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnEliminar
             // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(627, 293);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 63);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Eliminar cuenta";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnEliminar.BackColor = System.Drawing.Color.Black;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEliminar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(627, 293);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(113, 63);
+            this.btnEliminar.TabIndex = 8;
+            this.btnEliminar.Text = "Eliminar cuenta";
+            this.btnEliminar.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnModificar
             // 
-            this.button3.BackColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(627, 362);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 63);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Modificar cuenta";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnModificar.BackColor = System.Drawing.Color.Black;
+            this.btnModificar.FlatAppearance.BorderSize = 0;
+            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnModificar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
+            this.btnModificar.Location = new System.Drawing.Point(627, 362);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(113, 63);
+            this.btnModificar.TabIndex = 9;
+            this.btnModificar.Text = "Modificar cuenta";
+            this.btnModificar.UseVisualStyleBackColor = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(151, 371);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(111, 18);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "Saldo a retirar:";
+            // 
+            // txtRetirar
+            // 
+            this.txtRetirar.Location = new System.Drawing.Point(298, 362);
+            this.txtRetirar.Name = "txtRetirar";
+            this.txtRetirar.Size = new System.Drawing.Size(131, 23);
+            this.txtRetirar.TabIndex = 11;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // cuentaInfantil
             // 
@@ -274,11 +302,13 @@ namespace SBPA
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(800, 609);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtRetirar);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.txtSaldoabonar);
+            this.Controls.Add(this.txtSaldoahorrado);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -293,6 +323,7 @@ namespace SBPA
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,10 +332,10 @@ namespace SBPA
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNombrebeneficiario;
+        private System.Windows.Forms.TextBox txtNumerocuenta;
+        private System.Windows.Forms.TextBox txtNombremadre;
+        private System.Windows.Forms.TextBox txtNombrepadre;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -316,11 +347,14 @@ namespace SBPA
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox txtSaldoahorrado;
+        private System.Windows.Forms.TextBox txtSaldoabonar;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtRetirar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 
