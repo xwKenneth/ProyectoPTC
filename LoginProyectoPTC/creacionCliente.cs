@@ -72,7 +72,7 @@ namespace SBPA
             {
                 if (pro.Agregar() == true)
                 {
-                    MessageBox.Show("Producto agregado exitosamente",
+                    MessageBox.Show("cliente agregado exitosamente",
                         "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     txtNombre.Clear();
                     txtDui.Clear();

@@ -23,10 +23,24 @@ namespace SBPA
         public cuentaAhorro()
         {
             InitializeComponent();
+            MostrarDatos();
         }
 
 
+        public void MostrarDatos()
+        {
+            cuentaAhorroSql cuenta = new cuentaAhorroSql();
 
+            try
+            {
+                dgvDato.DataSource = cuenta.MostrarDatos();
+            }
+            catch
+            {
+                MessageBox.Show("Error No se pueden mostrar los datos ", "Error de visualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -41,5 +55,123 @@ namespace SBPA
         {
             this.Draggable(true);
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+
+            string Nombre = txtNombre.Text;
+            string Dui = txtDui.Text;
+            string NumeroCuenta = txtNumeroCuenta.Text;
+            int SaldoAhorrado = int.Parse(txtAhorrado.Text.ToString());
+            int SaldoAbonar = int.Parse(txtAbonar.Text.ToString());
+            int SaldoRetirar = int.Parse(txtRetirar.Text.ToString());
+
+            cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, Dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
+
+            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtNumeroCuenta.Text) ||
+                string.IsNullOrEmpty(txtAhorrado.Text) || string.IsNullOrEmpty(txtAbonar.Text) || string.IsNullOrEmpty(txtRetirar.Text))
+            {
+                MessageBox.Show("Error no se aceptan campos vacíos", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (cuenta.Agregar() == true)
+                {
+                    MessageBox.Show("Cuenta agregada exitosamente",
+                        "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    txtNombre.Clear();
+                    txtDui.Clear();
+                    txtNumeroCuenta.Clear();
+                    txtDui.Clear();
+                    txtAhorrado.Clear();
+                    txtAbonar.Clear();
+                    txtRetirar.Clear();
+                    MostrarDatos();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error",
+                       "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+      
+
+            string Nombre = txtNombre.Text;
+            string NumeroCuenta = dgvDato.CurrentRow.Cells[2].Value.ToString();
+            string dui = txtDui.Text;
+            int SaldoAhorrado = int.Parse(txtAhorrado.Text.ToString());
+            int SaldoAbonar = int.Parse(txtAbonar.Text.ToString());
+            int SaldoRetirar = int.Parse(txtRetirar.Text.ToString());
+
+            cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
+            if (cuenta.Actualizar() == true)
+            {
+                MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                txtNombre.Clear();
+                txtDui.Clear();
+                txtNumeroCuenta.Clear();
+                txtDui.Clear();
+                txtAhorrado.Clear();
+                txtAbonar.Clear();
+                txtRetirar.Clear();
+                MostrarDatos();
+            }
+            else
+            {
+                MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string Numero_Cuenta = dgvDato.CurrentRow.Cells[2].Value.ToString();
+
+                cuentaAhorroSql cuenta = new cuentaAhorroSql(Numero_Cuenta);
+
+                if (cuenta.Eliminar() == true)
+                {
+                    MessageBox.Show("Cuenta Eliminada", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                    txtNombre.Clear();
+                    txtDui.Clear();
+                    txtNumeroCuenta.Clear();
+                    txtDui.Clear();
+                    txtAhorrado.Clear();
+                    txtAbonar.Clear();
+                    txtRetirar.Clear();
+                    MostrarDatos();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Debe seleccionar" + " una fila para borrar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void dgvDato_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                txtNombre.Text = dgvDato.CurrentRow.Cells[0].Value.ToString();
+                txtDui.Text = dgvDato.CurrentRow.Cells[1].Value.ToString();
+                txtNumeroCuenta.Text = dgvDato.CurrentRow.Cells[2].Value.ToString();
+                txtAhorrado.Text = dgvDato.CurrentRow.Cells[3].Value.ToString();
+                txtAbonar.Text = dgvDato.CurrentRow.Cells[4].Value.ToString();
+                txtRetirar.Text = dgvDato.CurrentRow.Cells[5].Value.ToString();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Debe hacer doble clic en un "
+                    + " registro válido");
+            }    
+      }
     }
 }

@@ -35,8 +35,8 @@ namespace SBPA
             NombrePadre = iNombrePadre;
             NombreMadre = iNombreMadre;
             NumeroCelular = iNumeroCelular;
-            NumeroCasa =  iNumeroCasa;
-            TelefonoTrabajo =  iTelefonoTrabajo;
+            NumeroCasa = iNumeroCasa;
+            TelefonoTrabajo = iTelefonoTrabajo;
             Beneficiario = iBeneficiario;
             SalarioMensual = iSalarioMensual;
 

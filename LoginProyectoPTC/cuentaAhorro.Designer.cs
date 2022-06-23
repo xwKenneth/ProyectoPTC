@@ -37,7 +37,7 @@ namespace SBPA
             this.label3 = new System.Windows.Forms.Label();
             this.txtDui = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtCuenta = new System.Windows.Forms.TextBox();
+            this.txtNumeroCuenta = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtAhorrado = new System.Windows.Forms.TextBox();
@@ -48,7 +48,7 @@ namespace SBPA
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtRetirar = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDato)).BeginInit();
@@ -64,7 +64,7 @@ namespace SBPA
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.txtDui);
             this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.txtCuenta);
+            this.panel1.Controls.Add(this.txtNumeroCuenta);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -140,12 +140,12 @@ namespace SBPA
             this.label4.TabIndex = 3;
             this.label4.Text = "Numero de cuenta:";
             // 
-            // txtCuenta
+            // txtNumeroCuenta
             // 
-            this.txtCuenta.Location = new System.Drawing.Point(304, 106);
-            this.txtCuenta.Name = "txtCuenta";
-            this.txtCuenta.Size = new System.Drawing.Size(134, 23);
-            this.txtCuenta.TabIndex = 8;
+            this.txtNumeroCuenta.Location = new System.Drawing.Point(304, 106);
+            this.txtNumeroCuenta.Name = "txtNumeroCuenta";
+            this.txtNumeroCuenta.Size = new System.Drawing.Size(134, 23);
+            this.txtNumeroCuenta.TabIndex = 8;
             // 
             // label5
             // 
@@ -196,18 +196,28 @@ namespace SBPA
             this.btnActualizar.TabIndex = 13;
             this.btnActualizar.Text = "Actualizar Cuenta";
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // dgvDato
             // 
+            this.dgvDato.AllowUserToAddRows = false;
+            this.dgvDato.AllowUserToDeleteRows = false;
+            this.dgvDato.AllowUserToResizeColumns = false;
+            this.dgvDato.AllowUserToResizeRows = false;
+            this.dgvDato.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDato.BackgroundColor = System.Drawing.Color.White;
             this.dgvDato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDato.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvDato.GridColor = System.Drawing.SystemColors.Window;
             this.dgvDato.Location = new System.Drawing.Point(0, 448);
             this.dgvDato.Name = "dgvDato";
+            this.dgvDato.ReadOnly = true;
+            this.dgvDato.RowHeadersVisible = false;
             this.dgvDato.RowTemplate.Height = 25;
+            this.dgvDato.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvDato.Size = new System.Drawing.Size(744, 172);
             this.dgvDato.TabIndex = 14;
+            this.dgvDato.DoubleClick += new System.EventHandler(this.dgvDato_DoubleClick);
             // 
             // label7
             // 
@@ -233,6 +243,7 @@ namespace SBPA
             this.btnEliminar.TabIndex = 16;
             this.btnEliminar.Text = "Eliminar Cuenta";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnAgregar
             // 
@@ -247,6 +258,7 @@ namespace SBPA
             this.btnAgregar.TabIndex = 17;
             this.btnAgregar.Text = "Agregar cuenta";
             this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // label8
             // 
@@ -259,12 +271,12 @@ namespace SBPA
             this.label8.TabIndex = 19;
             this.label8.Text = "Saldo a retirar";
             // 
-            // textBox1
+            // txtRetirar
             // 
-            this.textBox1.Location = new System.Drawing.Point(271, 336);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(194, 23);
-            this.textBox1.TabIndex = 18;
+            this.txtRetirar.Location = new System.Drawing.Point(271, 336);
+            this.txtRetirar.Name = "txtRetirar";
+            this.txtRetirar.Size = new System.Drawing.Size(194, 23);
+            this.txtRetirar.TabIndex = 18;
             // 
             // cuentaAhorro
             // 
@@ -273,7 +285,7 @@ namespace SBPA
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(744, 620);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtRetirar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.label7);
@@ -309,7 +321,7 @@ namespace SBPA
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDui;
-        private System.Windows.Forms.TextBox txtCuenta;
+        private System.Windows.Forms.TextBox txtNumeroCuenta;
         private System.Windows.Forms.TextBox txtAhorrado;
         private System.Windows.Forms.TextBox txtAbonar;
         private System.Windows.Forms.Button btnActualizar;
@@ -319,7 +331,7 @@ namespace SBPA
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtRetirar;
     }
 }
 

@@ -36,24 +36,11 @@ namespace SBPA
         {
 
         }
-        public cuentaAhorroSql(string iDui)
+        public cuentaAhorroSql(string iNumero_Cuenta)
         {
-            Dui = iDui;
-        }
-        /*
-        public cuentaAhorroSql(string iDui, string iNombre, string iNumero_Cuenta, int iSaldoAhorrado, int iSaldo_Abonar,
-    int iSaldo_Retirar
-)
-        {
-            Dui = iDui;
-            Nombre = iNombre;
             Numero_Cuenta = iNumero_Cuenta;
-            SaldoAhorrado = iSaldoAhorrado;
-            Saldo_Abonar = iSaldo_Abonar;
-            Saldo_Retirar = iSaldo_Retirar;
-
         }
-        */
+
         public cuentaAhorroSql(string iNombre, string iDui, string iNumero_Cuenta, int iSaldoAhorrado, int iSaldo_Abonar,
             int iSaldo_Retirar
     )
@@ -71,7 +58,7 @@ namespace SBPA
         {
             string comando = "update CuentaAhorro set Nombre= '" +
                 Nombre + "', DUI ='" + Dui + "', Numero_Cuenta ='" + Numero_Cuenta + "', SaldoAhorrado ='" + SaldoAhorrado +
-                "', Saldo_Abonar ='" + Saldo_Abonar + "', Saldo_Retirar ='" + Saldo_Retirar + "'where DUI ='" + Dui + "';";
+                "', Saldo_Abonar ='" + Saldo_Abonar + "', Saldo_Retirar ='" + Saldo_Retirar + "'where Numero_Cuenta ='" + Numero_Cuenta + "';";
 
             MySqlConnection con = c.Conectar();
 
@@ -122,7 +109,7 @@ namespace SBPA
         public bool Eliminar()
         {
             string comando = "DELETE FROM CuentaAhorro WHERE " +
-                "DUI = '" + Dui + "';";
+                "Numero_Cuenta = '" + Numero_Cuenta + "';";
 
             MySqlConnection con = c.Conectar();
 
