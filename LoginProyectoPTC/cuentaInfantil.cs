@@ -40,21 +40,45 @@ namespace SBPA
             this.Draggable(true);
         }
 
+        public void MostrarDato()
+        {
+            cuenataInfantilSql cu = new cuenataInfantilSql();
+
+            try
+            {
+                dgvDatos.DataSource = cu.MostrarDatos();
+            }
+
+            catch
+            {
+                MessageBox.Show("Hubo un error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             string nombrePadre = txtNombrepadre.Text;
             string nombreMadre = txtNombremadre.Text;
-            string nombreCuenta = txtNumerocuenta.Text;
+            string numeroCuenta = txtNumerocuenta.Text;
             string NombreBeneficiario = txtNombrebeneficiario.Text;
             int saldoAhorrado =  int.Parse(txtSaldoahorrado.Text.ToString());
             int saldoRetirar = int.Parse(txtRetirar.Text.ToString());
             int saldoAbonar = int.Parse(txtSaldoabonar.Text.ToString());
 
-            cuenataInfantilSql i = new cuenataInfantilSql(nombrePadre, nombreMadre, nombreCuenta, NombreBeneficiario, saldoAhorrado, saldoRetirar, saldoAbonar);
+            cuenataInfantilSql i = new cuenataInfantilSql(nombrePadre, nombreMadre, numeroCuenta, NombreBeneficiario, saldoAhorrado, saldoRetirar, saldoAbonar);
             if (i.agregar() == true)
             {
                 MessageBox.Show("Datos ingresados correctamente",
                        "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MostrarDato();
+                txtNombrepadre.Clear();
+                txtNombremadre.Clear();
+                txtNumerocuenta.Clear();
+                txtNombrebeneficiario.Clear();
+                txtSaldoahorrado.Clear();
+                txtSaldoabonar.Clear();
+                txtRetirar.Clear();
+                MostrarDato();
             }
             else
             {
@@ -208,6 +232,56 @@ namespace SBPA
             {
                 e.Handled = true;
                 MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string numeroCuenta = dgvDatos.CurrentRow.Cells[2].Value.ToString();
+
+                cuenataInfantilSql cu = new cuenataInfantilSql(numeroCuenta);
+
+                if (cu.Eliminar() == true)
+                {
+                    MessageBox.Show("Cuenta eliminada", "Eliminada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MostrarDato();
+                    txtNombrepadre.Clear();
+                    txtNombremadre.Clear();
+                    txtNumerocuenta.Clear();
+                    txtNombrebeneficiario.Clear();
+                    txtSaldoahorrado.Clear();
+                    txtSaldoabonar.Clear();
+                    txtRetirar.Clear();
+                    MostrarDato();
+                }
+            }
+
+            catch(Exception ex)
+            {
+                MessageBox.Show("Hubo un problema", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void dgvDatos_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                MostrarDato();
+                txtNombrepadre.Text = dgvDatos.CurrentRow.Cells[0].Value.ToString();
+                txtNombremadre.Text = dgvDatos.CurrentRow.Cells[1].Value.ToString();
+                txtNumerocuenta.Text = dgvDatos.CurrentRow.Cells[2].Value.ToString();
+                txtNombrebeneficiario.Text = dgvDatos.CurrentRow.Cells[3].Value.ToString();
+                txtSaldoahorrado.Text = dgvDatos.CurrentRow.Cells[4].Value.ToString();
+                txtSaldoabonar.Text = dgvDatos.CurrentRow.Cells[5].Value.ToString();
+                txtRetirar.Text = dgvDatos.CurrentRow.Cells[6].Value.ToString();
+                MostrarDato();
+            }
+
+            catch
+            {
+                MessageBox.Show("Debe hacer doble click en un registro válido");
             }
         }
     }
