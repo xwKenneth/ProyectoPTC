@@ -1,0 +1,132 @@
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.exe
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.deps.json
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.json
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.dev.json
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csprojAssemblyReference.cache
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Form1.resources
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Properties.Resources.resources
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.GenerateResource.cache
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfoInputs.cache
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfo.cs
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.genruntimeconfig.cache
+C:\Users\Alumno\Documents\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\Alumno\Documents\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.exe
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.deps.json
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.json
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.dev.json
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Form1.resources
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Properties.Resources.resources
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.GenerateResource.cache
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Escritorio\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.exe
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.deps.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.dev.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Form1.resources
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Properties.Resources.resources
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.GenerateResource.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dashboard.resources
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.exe
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.deps.json
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.json
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.dev.json
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.pdb
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+D:\Expo\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csprojAssemblyReference.cache
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dashboard.resources
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Form1.resources
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Properties.Resources.resources
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.GenerateResource.cache
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.GeneratedMSBuildEditorConfig.editorconfig
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfoInputs.cache
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfo.cs
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CoreCompileInputs.cache
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CopyComplete
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dll
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\LoginProyectoPTC.dll
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.pdb
+D:\Expo\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.exe
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.deps.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.runtimeconfig.dev.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dashboard.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Form1.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.Properties.Resources.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.GenerateResource.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\LoginProyectoPTC.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.pdb
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\LoginProyectoPTC.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\LoginProyectoPTC.dll

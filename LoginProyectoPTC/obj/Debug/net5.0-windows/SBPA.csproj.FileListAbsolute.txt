@@ -1,0 +1,168 @@
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Form1.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Escritorio\test\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Login.resources
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\kenne\OneDrive\Documents\Documents\Documentos de trabajo\trabajos ricaldone\Expo Trabajo\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.certificadosLargoplazo.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.creacionCliente.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaAhorro.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaInfantil.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Login.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosHipotecarios.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosPersonales.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\kenne\Source\Repos\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.certificadosLargoplazo.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.creacionCliente.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaAhorro.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaInfantil.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Login.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosHipotecarios.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosPersonales.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\Javier\OneDrive\Escritorio\expo\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.certificadosLargoplazo.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.creacionCliente.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaAhorro.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaInfantil.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Login.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosHipotecarios.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosPersonales.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\Garcia\OneDrive\Escritorio\Nueva carpeta\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll

@@ -1,0 +1,358 @@
+﻿
+namespace SBPA
+{
+    partial class cuentaAhorro
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtDui = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtNumeroCuenta = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtAhorrado = new System.Windows.Forms.TextBox();
+            this.txtAbonar = new System.Windows.Forms.TextBox();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.dgvDato = new System.Windows.Forms.DataGridView();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtRetirar = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDato)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.txtNombre);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtDui);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.txtNumeroCuenta);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(850, 203);
+            this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::SBPA.Properties.Resources.Account_Avatar_Profile_PNG_Photo;
+            this.pictureBox1.Location = new System.Drawing.Point(14, 12);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 183);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(301, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(208, 27);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cuenta de Ahorro ";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(195, 69);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 19);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Nombre: ";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(347, 60);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(221, 27);
+            this.txtNombre.TabIndex = 6;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(195, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 19);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "DUI:";
+            // 
+            // txtDui
+            // 
+            this.txtDui.Location = new System.Drawing.Point(347, 99);
+            this.txtDui.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDui.Name = "txtDui";
+            this.txtDui.Size = new System.Drawing.Size(132, 27);
+            this.txtDui.TabIndex = 7;
+            this.txtDui.TextChanged += new System.EventHandler(this.txtDui_TextChanged);
+            this.txtDui.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDui_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(195, 151);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(148, 19);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Numero de cuenta:";
+            // 
+            // txtNumeroCuenta
+            // 
+            this.txtNumeroCuenta.Location = new System.Drawing.Point(347, 141);
+            this.txtNumeroCuenta.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNumeroCuenta.Name = "txtNumeroCuenta";
+            this.txtNumeroCuenta.Size = new System.Drawing.Size(153, 27);
+            this.txtNumeroCuenta.TabIndex = 8;
+            this.txtNumeroCuenta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumeroCuenta_KeyPress);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(57, 241);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(60, 23);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Saldo";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(169, 355);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(126, 19);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Saldo ahorrado:";
+            // 
+            // txtAhorrado
+            // 
+            this.txtAhorrado.Location = new System.Drawing.Point(301, 345);
+            this.txtAhorrado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAhorrado.Name = "txtAhorrado";
+            this.txtAhorrado.Size = new System.Drawing.Size(221, 27);
+            this.txtAhorrado.TabIndex = 9;
+            this.txtAhorrado.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAhorrado_KeyPress);
+            // 
+            // txtAbonar
+            // 
+            this.txtAbonar.Location = new System.Drawing.Point(310, 401);
+            this.txtAbonar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtAbonar.Name = "txtAbonar";
+            this.txtAbonar.Size = new System.Drawing.Size(221, 27);
+            this.txtAbonar.TabIndex = 10;
+            this.txtAbonar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAbonar_KeyPress);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.BackColor = System.Drawing.Color.Black;
+            this.btnActualizar.FlatAppearance.BorderSize = 0;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnActualizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnActualizar.ForeColor = System.Drawing.Color.White;
+            this.btnActualizar.Location = new System.Drawing.Point(647, 345);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(138, 95);
+            this.btnActualizar.TabIndex = 13;
+            this.btnActualizar.Text = "Actualizar Cuenta";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
+            // 
+            // dgvDato
+            // 
+            this.dgvDato.AllowUserToAddRows = false;
+            this.dgvDato.AllowUserToDeleteRows = false;
+            this.dgvDato.AllowUserToResizeColumns = false;
+            this.dgvDato.AllowUserToResizeRows = false;
+            this.dgvDato.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDato.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDato.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvDato.GridColor = System.Drawing.SystemColors.Window;
+            this.dgvDato.Location = new System.Drawing.Point(0, 598);
+            this.dgvDato.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dgvDato.Name = "dgvDato";
+            this.dgvDato.ReadOnly = true;
+            this.dgvDato.RowHeadersVisible = false;
+            this.dgvDato.RowHeadersWidth = 51;
+            this.dgvDato.RowTemplate.Height = 25;
+            this.dgvDato.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDato.Size = new System.Drawing.Size(850, 229);
+            this.dgvDato.TabIndex = 14;
+            this.dgvDato.DoubleClick += new System.EventHandler(this.dgvDato_DoubleClick);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(169, 411);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(125, 19);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Saldo a abonar:";
+            // 
+            // btnEliminar
+            // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Black;
+            this.btnEliminar.FlatAppearance.BorderSize = 0;
+            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnEliminar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEliminar.ForeColor = System.Drawing.Color.White;
+            this.btnEliminar.Location = new System.Drawing.Point(647, 448);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(138, 95);
+            this.btnEliminar.TabIndex = 16;
+            this.btnEliminar.Text = "Eliminar Cuenta";
+            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.BackColor = System.Drawing.Color.Black;
+            this.btnAgregar.FlatAppearance.BorderSize = 0;
+            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAgregar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAgregar.ForeColor = System.Drawing.Color.White;
+            this.btnAgregar.Location = new System.Drawing.Point(647, 243);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(138, 95);
+            this.btnAgregar.TabIndex = 17;
+            this.btnAgregar.Text = "Agregar cuenta";
+            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(169, 457);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(113, 19);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Saldo a retirar";
+            // 
+            // txtRetirar
+            // 
+            this.txtRetirar.Location = new System.Drawing.Point(310, 448);
+            this.txtRetirar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtRetirar.Name = "txtRetirar";
+            this.txtRetirar.Size = new System.Drawing.Size(221, 27);
+            this.txtRetirar.TabIndex = 18;
+            this.txtRetirar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtRetirar_KeyPress);
+            // 
+            // cuentaAhorro
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.ClientSize = new System.Drawing.Size(850, 827);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtRetirar);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.btnEliminar);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.dgvDato);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.txtAbonar);
+            this.Controls.Add(this.txtAhorrado);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "cuentaAhorro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cuenta de ahorro";
+            this.Load += new System.EventHandler(this.cuentaAhorro_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDato)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtDui;
+        private System.Windows.Forms.TextBox txtNumeroCuenta;
+        private System.Windows.Forms.TextBox txtAhorrado;
+        private System.Windows.Forms.TextBox txtAbonar;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.DataGridView dgvDato;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtRetirar;
+    }
+}
+
