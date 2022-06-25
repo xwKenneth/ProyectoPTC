@@ -22,5 +22,8 @@
     <Compile Update="PrestamosHipotecarios.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PrestamosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

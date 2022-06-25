@@ -431,7 +431,7 @@ namespace SBPA
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Image = global::SBPA.Properties.Resources.xd;
             this.pictureBox8.Location = new System.Drawing.Point(175, 15);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox8.Name = "pictureBox8";

@@ -37,7 +37,7 @@ namespace SBPA
             }
             catch
             {
-                MessageBox.Show("Error No se pueden mostrar los datos ", "Error de visualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se pueden mostrar los datos ", "Error de visualización", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
@@ -218,7 +218,8 @@ namespace SBPA
 
         private void txtNumeroCuenta_KeyPress(object sender, KeyPressEventArgs e)
         {
-
+            
+  
         }
 
         private void txtAhorrado_KeyPress(object sender, KeyPressEventArgs e)
@@ -282,11 +283,6 @@ namespace SBPA
                 e.Handled = true;
                 MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-        }
-
-        private void txtDui_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

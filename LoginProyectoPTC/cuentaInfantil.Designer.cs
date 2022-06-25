@@ -32,7 +32,7 @@ namespace SBPA
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtNombrebeneficiario = new System.Windows.Forms.TextBox();
-            this.txtNumerocuenta = new System.Windows.Forms.TextBox();
+            this.txtNombreCuenta = new System.Windows.Forms.TextBox();
             this.txtNombremadre = new System.Windows.Forms.TextBox();
             this.txtNombrepadre = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,7 +42,6 @@ namespace SBPA
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.dgvDatos = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -50,21 +49,22 @@ namespace SBPA
             this.txtSaldoabonar = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.txtRetirar = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.dgvDatos = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
             this.panel1.Controls.Add(this.txtNombrebeneficiario);
-            this.panel1.Controls.Add(this.txtNumerocuenta);
+            this.panel1.Controls.Add(this.txtNombreCuenta);
             this.panel1.Controls.Add(this.txtNombremadre);
             this.panel1.Controls.Add(this.txtNombrepadre);
             this.panel1.Controls.Add(this.label5);
@@ -88,13 +88,13 @@ namespace SBPA
             this.txtNombrebeneficiario.TabIndex = 9;
             this.txtNombrebeneficiario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombrebeneficiario_KeyPress);
             // 
-            // txtNumerocuenta
+            // txtNombreCuenta
             // 
-            this.txtNumerocuenta.Location = new System.Drawing.Point(395, 128);
-            this.txtNumerocuenta.Name = "txtNumerocuenta";
-            this.txtNumerocuenta.Size = new System.Drawing.Size(100, 23);
-            this.txtNumerocuenta.TabIndex = 8;
-            this.txtNumerocuenta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumerocuenta_KeyPress);
+            this.txtNombreCuenta.Location = new System.Drawing.Point(395, 128);
+            this.txtNombreCuenta.Name = "txtNombreCuenta";
+            this.txtNombreCuenta.Size = new System.Drawing.Size(100, 23);
+            this.txtNombreCuenta.TabIndex = 8;
+            this.txtNombreCuenta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumerocuenta_KeyPress);
             // 
             // txtNombremadre
             // 
@@ -130,9 +130,9 @@ namespace SBPA
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(192, 133);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 18);
+            this.label4.Size = new System.Drawing.Size(152, 18);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Numero de cuenta:";
+            this.label4.Text = "Nombre de la cuenta";
             // 
             // label3
             // 
@@ -176,28 +176,6 @@ namespace SBPA
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // dgvDatos
-            // 
-            this.dgvDatos.AllowUserToAddRows = false;
-            this.dgvDatos.AllowUserToDeleteRows = false;
-            this.dgvDatos.AllowUserToResizeColumns = false;
-            this.dgvDatos.AllowUserToResizeRows = false;
-            this.dgvDatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvDatos.BackgroundColor = System.Drawing.Color.White;
-            this.dgvDatos.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatos.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgvDatos.Location = new System.Drawing.Point(0, 447);
-            this.dgvDatos.Name = "dgvDatos";
-            this.dgvDatos.ReadOnly = true;
-            this.dgvDatos.RowHeadersVisible = false;
-            this.dgvDatos.RowHeadersWidth = 51;
-            this.dgvDatos.RowTemplate.Height = 25;
-            this.dgvDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDatos.Size = new System.Drawing.Size(800, 162);
-            this.dgvDatos.TabIndex = 1;
-            this.dgvDatos.DoubleClick += new System.EventHandler(this.dgvDatos_DoubleClick);
             // 
             // label6
             // 
@@ -261,7 +239,7 @@ namespace SBPA
             this.btnAgregar.TabIndex = 7;
             this.btnAgregar.Text = "Agregar cuenta";
             this.btnAgregar.UseVisualStyleBackColor = false;
-            this.btnAgregar.Click += new System.EventHandler(this.button1_Click);
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEliminar
             // 
@@ -278,19 +256,20 @@ namespace SBPA
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
-            // btnModificar
+            // btnActualizar
             // 
-            this.btnModificar.BackColor = System.Drawing.Color.Black;
-            this.btnModificar.FlatAppearance.BorderSize = 0;
-            this.btnModificar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnModificar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnModificar.ForeColor = System.Drawing.Color.White;
-            this.btnModificar.Location = new System.Drawing.Point(627, 362);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(113, 63);
-            this.btnModificar.TabIndex = 9;
-            this.btnModificar.Text = "Modificar cuenta";
-            this.btnModificar.UseVisualStyleBackColor = false;
+            this.btnActualizar.BackColor = System.Drawing.Color.Black;
+            this.btnActualizar.FlatAppearance.BorderSize = 0;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnActualizar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnActualizar.ForeColor = System.Drawing.Color.White;
+            this.btnActualizar.Location = new System.Drawing.Point(627, 362);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(113, 63);
+            this.btnActualizar.TabIndex = 9;
+            this.btnActualizar.Text = "Actualizar cuenta";
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // label9
             // 
@@ -315,15 +294,38 @@ namespace SBPA
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // dgvDatos
+            // 
+            this.dgvDatos.AllowUserToAddRows = false;
+            this.dgvDatos.AllowUserToDeleteRows = false;
+            this.dgvDatos.AllowUserToResizeColumns = false;
+            this.dgvDatos.AllowUserToResizeRows = false;
+            this.dgvDatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvDatos.BackgroundColor = System.Drawing.Color.White;
+            this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDatos.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvDatos.GridColor = System.Drawing.SystemColors.Window;
+            this.dgvDatos.Location = new System.Drawing.Point(0, 437);
+            this.dgvDatos.Name = "dgvDatos";
+            this.dgvDatos.ReadOnly = true;
+            this.dgvDatos.RowHeadersVisible = false;
+            this.dgvDatos.RowHeadersWidth = 51;
+            this.dgvDatos.RowTemplate.Height = 25;
+            this.dgvDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvDatos.Size = new System.Drawing.Size(800, 172);
+            this.dgvDatos.TabIndex = 15;
+            this.dgvDatos.DoubleClick += new System.EventHandler(this.dgvDatos_DoubleClick_1);
+            // 
             // cuentaInfantil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(800, 609);
+            this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.txtRetirar);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.txtSaldoabonar);
@@ -331,7 +333,6 @@ namespace SBPA
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "cuentaInfantil";
@@ -341,8 +342,8 @@ namespace SBPA
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,7 +353,7 @@ namespace SBPA
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TextBox txtNombrebeneficiario;
-        private System.Windows.Forms.TextBox txtNumerocuenta;
+        private System.Windows.Forms.TextBox txtNombreCuenta;
         private System.Windows.Forms.TextBox txtNombremadre;
         private System.Windows.Forms.TextBox txtNombrepadre;
         private System.Windows.Forms.Label label5;
@@ -362,7 +363,6 @@ namespace SBPA
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.DataGridView dgvDatos;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
@@ -370,10 +370,11 @@ namespace SBPA
         private System.Windows.Forms.TextBox txtSaldoabonar;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtRetirar;
         private System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.DataGridView dgvDatos;
     }
 }
 

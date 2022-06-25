@@ -83,6 +83,16 @@ namespace SBPA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete_button_pngrepo_com {
+            get {
+                object obj = ResourceManager.GetObject("delete-button-pngrepo-com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Guardar_removebg_preview__1_ {
             get {
                 object obj = ResourceManager.GetObject("Guardar-removebg-preview (1)", resourceCulture);
@@ -107,6 +117,16 @@ namespace SBPA.Properties {
         internal static System.Drawing.Bitmap Usuario {
             get {
                 object obj = ResourceManager.GetObject("Usuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xd {
+            get {
+                object obj = ResourceManager.GetObject("xd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

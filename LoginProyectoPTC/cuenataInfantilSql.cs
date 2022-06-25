@@ -12,7 +12,7 @@ namespace SBPA
     {
         private string nombrePadre;
         private string nombreMadre;
-        private string numeroCuenta;
+        private string NombreCuenta;
         private string nombreBeneficiario;
         private int saldoAhorrado;
         private int saldoAbonar;
@@ -20,12 +20,12 @@ namespace SBPA
 
         Conexion c = new Conexion();
 
-        public cuenataInfantilSql(string NombrePadre,string NombreMadre,string NumeroCuenta,string NombreBeneficiario,
+        public cuenataInfantilSql(string NombrePadre,string NombreMadre,string iNombreCuenta, string NombreBeneficiario,
             int SaldoAhorrado,int SaldoAbonar,int SaldoRetirar)
         {
             nombrePadre = NombrePadre;
             nombreMadre = NombreMadre;
-            numeroCuenta = NumeroCuenta;
+            NombreCuenta = iNombreCuenta;
             nombreBeneficiario = NombreBeneficiario;
             saldoAhorrado = SaldoAhorrado;
             saldoAbonar = SaldoAbonar;
@@ -34,29 +34,32 @@ namespace SBPA
 
         public DataTable MostrarDatos()
         {
-            string comando = "select * from CuentaInfantil;";
+            string comando = "SELECT * FROM CuentaInfantil;";
             MySqlConnection con = c.Conectar();
+
             DataTable dt = new DataTable();
-            MySqlDataAdapter adaptador = new MySqlDataAdapter(comando, con);
-            adaptador.Fill(dt);
+
+            MySqlDataAdapter adapter =
+                new MySqlDataAdapter(comando, con);
+            adapter.Fill(dt);
             return dt;
         }
 
-        public cuenataInfantilSql(string NumeroCuenta) //para delete
+        public cuenataInfantilSql(string iNombreCuenta) //para delete
         {
-            numeroCuenta = NumeroCuenta;
+            NombreCuenta = iNombreCuenta;
         }
 
-        public cuenataInfantilSql()//para select
+        public cuenataInfantilSql() 
         {
 
         }
 
 
-        public bool agregar()
+        public bool Agregar()
         {
             string comando = "insert into CuentaInfantil (NombrePadre, NombreMadre, NombreCuenta, NombreBeneficiario, SaldoAhorrado, Saldo_Abonar, Saldo_Retirar)" +
-                    "values('" + nombrePadre + "', '" + nombreMadre + "', '" + numeroCuenta + "', '" + nombreBeneficiario + "' , '" + saldoAhorrado + "', '" + saldoAbonar
+                    "values('" + nombrePadre + "', '" + nombreMadre + "', '" + NombreCuenta + "', '" + nombreBeneficiario + "' , '" + saldoAhorrado + "', '" + saldoAbonar
                     + "' , '" + saldoRetirar + "'); ";
 
             MySqlConnection con = c.Conectar();
@@ -81,7 +84,8 @@ namespace SBPA
 
         public bool Eliminar()
         {
-            string comando = "DELETE FROM CuentaInfantil WHERE nombreCuenta =' " + numeroCuenta + " ';";
+            string comando = "DELETE FROM CuentaInfantil WHERE " +
+                "NombreCuenta = '" + NombreCuenta + "';";
 
             MySqlConnection con = c.Conectar();
 
@@ -92,23 +96,25 @@ namespace SBPA
                 cmd.ExecuteNonQuery();
                 return true;
             }
-
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show(ex.Message);
                 return false;
             }
-
             finally
             {
                 con.Close();
             }
         }
 
-        public bool actualizar()
+        public bool Actualizar()
         {
-            string comando = "update CuentaInfantil set NombrePadre=' " + nombrePadre + "',NombreMadre=' " + nombreMadre + "',NombreBeneficiario='" + nombreBeneficiario + "'," +
-                "SaldoAhorrado='" + saldoAhorrado + "',Saldo_Abonar='" + saldoAbonar + "',Saldo_Retirar='" + saldoRetirar + "' where NombreCuenta=' " + numeroCuenta + "';";
+
+
+
+            string comando = "update CuentaInfantil set NombrePadre= '" +
+     nombrePadre + "', NombreMadre ='" + nombreMadre + "', NombreCuenta ='" + NombreCuenta + "', NombreBeneficiario ='" + nombreBeneficiario +
+     "', SaldoAhorrado ='" + saldoAhorrado + "', Saldo_Abonar ='" + saldoAbonar + "', Saldo_Retirar ='" + saldoRetirar + "'where NombreCuenta ='" + NombreCuenta + "';";
 
             MySqlConnection con = c.Conectar();
 
