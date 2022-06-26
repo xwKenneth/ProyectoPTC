@@ -231,25 +231,35 @@ namespace SBPA
             int saldoRetirar = int.Parse(txtRetirar.Text.ToString());
             int saldoAbonar = int.Parse(txtSaldoabonar.Text.ToString());
 
-            cuenataInfantilSql cuenta  = new cuenataInfantilSql(nombrePadre, nombreMadre, numeroCuenta, NombreBeneficiario, saldoAhorrado, saldoAbonar, saldoRetirar);
-            if (cuenta.Agregar() == true)
+            if (string.IsNullOrEmpty(txtNombrepadre.Text) || string.IsNullOrEmpty(txtNombremadre.Text) || string.IsNullOrEmpty(txtNombreCuenta.Text)
+      || string.IsNullOrEmpty(txtNombrebeneficiario.Text) || string.IsNullOrEmpty(txtSaldoahorrado.Text) || string.IsNullOrEmpty(txtRetirar.Text)
+      || string.IsNullOrEmpty(txtSaldoabonar.Text) )
             {
-                MessageBox.Show("Datos ingresados correctamente",
-                       "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                MostrarDato();
-                txtNombrepadre.Clear();
-                txtNombremadre.Clear();
-                txtNombreCuenta.Clear();
-                txtNombrebeneficiario.Clear();
-                txtSaldoahorrado.Clear();
-                txtSaldoabonar.Clear();
-                txtRetirar.Clear();
-                MostrarDato();
+                MessageBox.Show("Error no se aceptan campos vacios", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Error",
-                       "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cuenataInfantilSql cuenta = new cuenataInfantilSql(nombrePadre, nombreMadre, numeroCuenta, NombreBeneficiario, saldoAhorrado, saldoAbonar, saldoRetirar);
+                if (cuenta.Agregar() == true)
+                {
+               
+                    MessageBox.Show("Datos ingresados correctamente",
+                           "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MostrarDato();
+                    txtNombrepadre.Clear();
+                    txtNombremadre.Clear();
+                    txtNombreCuenta.Clear();
+                    txtNombrebeneficiario.Clear();
+                    txtSaldoahorrado.Clear();
+                    txtSaldoabonar.Clear();
+                    txtRetirar.Clear();
+                    MostrarDato();
+                }
+                else
+                {
+                    MessageBox.Show("Error",
+                           "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

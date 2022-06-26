@@ -57,9 +57,7 @@ namespace SBPA
             string TelefonoTrabajo = txtTelefenoTrabajo.Text;
             string Beneficiario = txtBeneficiario.Text;
             int SalarioMensual = int.Parse(txtSalarioMensual.Text.ToString());
-            creacionClienteSql pro = new creacionClienteSql(Nombre, FechaNacimiento, Dui, Direccion, LugarNacimiento, LugarTrabajo, NombrePadre,
-                NombreMadre, NumeroCelular, NumeroCasa, TelefonoTrabajo, Beneficiario, SalarioMensual);
-
+          
             if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtDireccion.Text)
                 || string.IsNullOrEmpty(txtLugarNacimiento.Text) || string.IsNullOrEmpty(txtLugarTrabajo.Text) || string.IsNullOrEmpty(txtNombrePadre.Text)
                 || string.IsNullOrEmpty(txtNombreMadre.Text) || string.IsNullOrEmpty(txtnumeroCelular.Text) || string.IsNullOrEmpty(txtNumeroCasa.Text)
@@ -70,6 +68,9 @@ namespace SBPA
             }
             else
             {
+                creacionClienteSql pro = new creacionClienteSql(Nombre, FechaNacimiento, Dui, Direccion, LugarNacimiento, LugarTrabajo, NombrePadre,
+                NombreMadre, NumeroCelular, NumeroCasa, TelefonoTrabajo, Beneficiario, SalarioMensual);
+
                 if (pro.Agregar() == true)
                 {
                     MessageBox.Show("cliente agregado exitosamente",

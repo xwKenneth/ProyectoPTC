@@ -66,7 +66,7 @@ namespace SBPA
             int SaldoAbonar = int.Parse(txtAbonar.Text.ToString());
             int SaldoRetirar = int.Parse(txtRetirar.Text.ToString());
 
-            cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, Dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
+         
 
             if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtNumeroCuenta.Text) ||
                 string.IsNullOrEmpty(txtAhorrado.Text) || string.IsNullOrEmpty(txtAbonar.Text) || string.IsNullOrEmpty(txtRetirar.Text))
@@ -75,6 +75,7 @@ namespace SBPA
             }
             else
             {
+                cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, Dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
                 if (cuenta.Agregar() == true)
                 {
                     MessageBox.Show("Cuenta agregada exitosamente",

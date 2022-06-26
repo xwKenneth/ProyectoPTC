@@ -30,9 +30,9 @@ namespace SBPA
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNumeroOperacion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaRegistro = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,31 +40,30 @@ namespace SBPA
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtTotalInteres = new System.Windows.Forms.TextBox();
-            this.txtMontosCuotas = new System.Windows.Forms.TextBox();
+            this.txtTotaldeInteres = new System.Windows.Forms.TextBox();
+            this.txtMontosporCuotas = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dtpFechaDeInicio = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
-            this.txtMontoTotal = new System.Windows.Forms.TextBox();
-            this.btnActualizar = new System.Windows.Forms.Button();
+            this.txtMontoTotalaPagar = new System.Windows.Forms.TextBox();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.txtNombreCompleto = new System.Windows.Forms.TextBox();
             this.txtTipodeDocumento = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.txtNúmerodeDocumento = new System.Windows.Forms.TextBox();
-            this.txtDirección = new System.Windows.Forms.TextBox();
+            this.txtNumerodeDocumento = new System.Windows.Forms.TextBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.txtNúmerodeTeléfono = new System.Windows.Forms.TextBox();
+            this.txtNumerodeTelefono = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.txtCorreoElectrónico = new System.Windows.Forms.TextBox();
+            this.txtCorreoElectronico = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtDui = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
@@ -72,13 +71,14 @@ namespace SBPA
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtCuotas = new System.Windows.Forms.TextBox();
-            this.txtInteres = new System.Windows.Forms.TextBox();
             this.txtMontodeprestamo = new System.Windows.Forms.TextBox();
-            this.txtTipodeMoneda = new System.Windows.Forms.TextBox();
+            this.txtInteres = new System.Windows.Forms.TextBox();
+            this.txtNumeroCuotas = new System.Windows.Forms.TextBox();
             this.txtFondodePago = new System.Windows.Forms.TextBox();
+            this.txtTipodeMoneda = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvDato = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -96,12 +96,12 @@ namespace SBPA
             this.label1.TabIndex = 0;
             this.label1.Text = "N° Operación:";
             // 
-            // textBox1
+            // txtNumeroOperacion
             // 
-            this.textBox1.Location = new System.Drawing.Point(158, 178);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(115, 23);
-            this.textBox1.TabIndex = 1;
+            this.txtNumeroOperacion.Location = new System.Drawing.Point(158, 178);
+            this.txtNumeroOperacion.Name = "txtNumeroOperacion";
+            this.txtNumeroOperacion.Size = new System.Drawing.Size(115, 23);
+            this.txtNumeroOperacion.TabIndex = 1;
             // 
             // label2
             // 
@@ -114,12 +114,12 @@ namespace SBPA
             this.label2.TabIndex = 2;
             this.label2.Text = "Fecha de registro:";
             // 
-            // dateTimePicker1
+            // dtpFechaRegistro
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(509, 175);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(212, 23);
-            this.dateTimePicker1.TabIndex = 3;
+            this.dtpFechaRegistro.Location = new System.Drawing.Point(509, 175);
+            this.dtpFechaRegistro.Name = "dtpFechaRegistro";
+            this.dtpFechaRegistro.Size = new System.Drawing.Size(212, 23);
+            this.dtpFechaRegistro.TabIndex = 3;
             // 
             // label3
             // 
@@ -161,9 +161,9 @@ namespace SBPA
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(73, 466);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(128, 16);
+            this.label6.Size = new System.Drawing.Size(131, 16);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Montos por cuotas:";
+            this.label6.Text = "Montos por Cuotas:";
             // 
             // label7
             // 
@@ -196,23 +196,23 @@ namespace SBPA
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(108, 16);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Total de interes:";
+            this.label9.Text = "Total de Interes:";
             // 
-            // txtTotalInteres
+            // txtTotaldeInteres
             // 
-            this.txtTotalInteres.Location = new System.Drawing.Point(309, 483);
-            this.txtTotalInteres.Name = "txtTotalInteres";
-            this.txtTotalInteres.Size = new System.Drawing.Size(120, 23);
-            this.txtTotalInteres.TabIndex = 17;
-            this.txtTotalInteres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.txtTotaldeInteres.Location = new System.Drawing.Point(309, 483);
+            this.txtTotaldeInteres.Name = "txtTotaldeInteres";
+            this.txtTotaldeInteres.Size = new System.Drawing.Size(120, 23);
+            this.txtTotaldeInteres.TabIndex = 17;
+            this.txtTotaldeInteres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTotaldeInteres_KeyPress);
             // 
-            // txtMontosCuotas
+            // txtMontosporCuotas
             // 
-            this.txtMontosCuotas.Location = new System.Drawing.Point(73, 483);
-            this.txtMontosCuotas.Name = "txtMontosCuotas";
-            this.txtMontosCuotas.Size = new System.Drawing.Size(120, 23);
-            this.txtMontosCuotas.TabIndex = 18;
-            this.txtMontosCuotas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMontosCuotas_KeyPress);
+            this.txtMontosporCuotas.Location = new System.Drawing.Point(73, 483);
+            this.txtMontosporCuotas.Name = "txtMontosporCuotas";
+            this.txtMontosporCuotas.Size = new System.Drawing.Size(120, 23);
+            this.txtMontosporCuotas.TabIndex = 18;
+            this.txtMontosporCuotas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMontosporCuotas_KeyPress);
             // 
             // label10
             // 
@@ -236,12 +236,13 @@ namespace SBPA
             this.label11.TabIndex = 22;
             this.label11.Text = "Fecha de inicio:";
             // 
-            // dateTimePicker2
+            // dtpFechaDeInicio
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(492, 437);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(260, 23);
-            this.dateTimePicker2.TabIndex = 23;
+            this.dtpFechaDeInicio.Location = new System.Drawing.Point(487, 442);
+            this.dtpFechaDeInicio.Name = "dtpFechaDeInicio";
+            this.dtpFechaDeInicio.Size = new System.Drawing.Size(264, 23);
+            this.dtpFechaDeInicio.TabIndex = 23;
+            this.dtpFechaDeInicio.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // label12
             // 
@@ -250,30 +251,17 @@ namespace SBPA
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(542, 466);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(137, 16);
+            this.label12.Size = new System.Drawing.Size(138, 16);
             this.label12.TabIndex = 24;
-            this.label12.Text = "Monto Total a pagar:";
+            this.label12.Text = "Monto Total a Pagar:";
             // 
-            // txtMontoTotal
+            // txtMontoTotalaPagar
             // 
-            this.txtMontoTotal.Location = new System.Drawing.Point(542, 483);
-            this.txtMontoTotal.Name = "txtMontoTotal";
-            this.txtMontoTotal.Size = new System.Drawing.Size(120, 23);
-            this.txtMontoTotal.TabIndex = 25;
-            this.txtMontoTotal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMontoTotal_KeyPress);
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.BackColor = System.Drawing.Color.White;
-            this.btnActualizar.BackgroundImage = global::SBPA.Properties.Resources._13964_removebg_preview;
-            this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btnActualizar.FlatAppearance.BorderSize = 0;
-            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizar.Location = new System.Drawing.Point(638, 622);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 61);
-            this.btnActualizar.TabIndex = 27;
-            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.txtMontoTotalaPagar.Location = new System.Drawing.Point(542, 483);
+            this.txtMontoTotalaPagar.Name = "txtMontoTotalaPagar";
+            this.txtMontoTotalaPagar.Size = new System.Drawing.Size(120, 23);
+            this.txtMontoTotalaPagar.TabIndex = 25;
+            this.txtMontoTotalaPagar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMontoTotalaPagar_KeyPress);
             // 
             // btnRegistrar
             // 
@@ -282,11 +270,12 @@ namespace SBPA
             this.btnRegistrar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Location = new System.Drawing.Point(638, 519);
+            this.btnRegistrar.Location = new System.Drawing.Point(94, 586);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(75, 65);
             this.btnRegistrar.TabIndex = 26;
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // label13
             // 
@@ -294,7 +283,7 @@ namespace SBPA
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(643, 587);
+            this.label13.Location = new System.Drawing.Point(99, 654);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(65, 16);
             this.label13.TabIndex = 28;
@@ -305,11 +294,11 @@ namespace SBPA
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(647, 686);
+            this.label14.Location = new System.Drawing.Point(327, 651);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(66, 16);
+            this.label14.Size = new System.Drawing.Size(68, 16);
             this.label14.TabIndex = 29;
-            this.label14.Text = "Regresar";
+            this.label14.Text = "Actualizar";
             // 
             // label15
             // 
@@ -322,13 +311,13 @@ namespace SBPA
             this.label15.TabIndex = 30;
             this.label15.Text = "Nombre Completo:";
             // 
-            // txt
+            // txtNombreCompleto
             // 
-            this.txt.Location = new System.Drawing.Point(73, 274);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(200, 23);
-            this.txt.TabIndex = 31;
-            this.txt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox5_KeyPress);
+            this.txtNombreCompleto.Location = new System.Drawing.Point(73, 274);
+            this.txtNombreCompleto.Name = "txtNombreCompleto";
+            this.txtNombreCompleto.Size = new System.Drawing.Size(200, 23);
+            this.txtNombreCompleto.TabIndex = 31;
+            this.txtNombreCompleto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreCompleto_KeyPress);
             // 
             // txtTipodeDocumento
             // 
@@ -336,7 +325,7 @@ namespace SBPA
             this.txtTipodeDocumento.Name = "txtTipodeDocumento";
             this.txtTipodeDocumento.Size = new System.Drawing.Size(112, 23);
             this.txtTipodeDocumento.TabIndex = 33;
-            this.txtTipodeDocumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTipodeDocumento_KeyPress);
+            this.txtTipodeDocumento.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TipodeDocumento_KeyPress);
             // 
             // label16
             // 
@@ -360,21 +349,20 @@ namespace SBPA
             this.label17.TabIndex = 34;
             this.label17.Text = "Número de Documento:";
             // 
-            // txtNúmerodeDocumento
+            // txtNumerodeDocumento
             // 
-            this.txtNúmerodeDocumento.Location = new System.Drawing.Point(529, 269);
-            this.txtNúmerodeDocumento.Name = "txtNúmerodeDocumento";
-            this.txtNúmerodeDocumento.Size = new System.Drawing.Size(133, 23);
-            this.txtNúmerodeDocumento.TabIndex = 35;
+            this.txtNumerodeDocumento.Location = new System.Drawing.Point(529, 269);
+            this.txtNumerodeDocumento.Name = "txtNumerodeDocumento";
+            this.txtNumerodeDocumento.Size = new System.Drawing.Size(133, 23);
+            this.txtNumerodeDocumento.TabIndex = 35;
             // 
-            // txtDirección
+            // txtDireccion
             // 
-            this.txtDirección.Location = new System.Drawing.Point(73, 327);
-            this.txtDirección.Name = "txtDirección";
-            this.txtDirección.Size = new System.Drawing.Size(200, 23);
-            this.txtDirección.TabIndex = 36;
-            this.txtDirección.TextChanged += new System.EventHandler(this.txtDirección_TextChanged);
-            this.txtDirección.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDirección_KeyPress);
+            this.txtDireccion.Location = new System.Drawing.Point(73, 327);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(200, 23);
+            this.txtDireccion.TabIndex = 36;
+            this.txtDireccion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDirección_KeyPress);
             // 
             // label18
             // 
@@ -394,17 +382,17 @@ namespace SBPA
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(335, 306);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(138, 16);
+            this.label19.Size = new System.Drawing.Size(135, 16);
             this.label19.TabIndex = 38;
-            this.label19.Text = "Número de Teléfono:";
+            this.label19.Text = "Número de telefono:";
             // 
-            // txtNúmerodeTeléfono
+            // txtNumerodeTelefono
             // 
-            this.txtNúmerodeTeléfono.Location = new System.Drawing.Point(335, 327);
-            this.txtNúmerodeTeléfono.Name = "txtNúmerodeTeléfono";
-            this.txtNúmerodeTeléfono.Size = new System.Drawing.Size(112, 23);
-            this.txtNúmerodeTeléfono.TabIndex = 39;
-            this.txtNúmerodeTeléfono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNúmerodeTeléfono_KeyPress);
+            this.txtNumerodeTelefono.Location = new System.Drawing.Point(335, 327);
+            this.txtNumerodeTelefono.Name = "txtNumerodeTelefono";
+            this.txtNumerodeTelefono.Size = new System.Drawing.Size(112, 23);
+            this.txtNumerodeTelefono.TabIndex = 39;
+            this.txtNumerodeTelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNúmerodeTeléfono_KeyPress);
             // 
             // label20
             // 
@@ -415,19 +403,20 @@ namespace SBPA
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(129, 16);
             this.label20.TabIndex = 40;
-            this.label20.Text = "Correo Electrónico:";
+            this.label20.Text = "Correo Electronico:";
             // 
-            // txtCorreoElectrónico
+            // txtCorreoElectronico
             // 
-            this.txtCorreoElectrónico.Location = new System.Drawing.Point(529, 326);
-            this.txtCorreoElectrónico.Name = "txtCorreoElectrónico";
-            this.txtCorreoElectrónico.Size = new System.Drawing.Size(133, 23);
-            this.txtCorreoElectrónico.TabIndex = 41;
+            this.txtCorreoElectronico.Location = new System.Drawing.Point(529, 326);
+            this.txtCorreoElectronico.Name = "txtCorreoElectronico";
+            this.txtCorreoElectronico.Size = new System.Drawing.Size(133, 23);
+            this.txtCorreoElectronico.TabIndex = 41;
+            this.txtCorreoElectronico.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreoElectrónico_KeyPress);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(31)))), ((int)(((byte)(54)))));
-            this.panel1.Controls.Add(this.textBox13);
+            this.panel1.Controls.Add(this.txtDui);
             this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label22);
@@ -438,19 +427,18 @@ namespace SBPA
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(754, 169);
+            this.panel1.Size = new System.Drawing.Size(789, 169);
             this.panel1.TabIndex = 42;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
-            // textBox13
+            // txtDui
             // 
-            this.textBox13.Location = new System.Drawing.Point(290, 80);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(222, 23);
-            this.textBox13.TabIndex = 7;
-            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
-            this.textBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox13_KeyPress);
+            this.txtDui.Location = new System.Drawing.Point(290, 80);
+            this.txtDui.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDui.Name = "txtDui";
+            this.txtDui.Size = new System.Drawing.Size(222, 23);
+            this.txtDui.TabIndex = 7;
+            this.txtDui.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDui_KeyPress);
             // 
             // label23
             // 
@@ -528,61 +516,61 @@ namespace SBPA
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // txtCuotas
-            // 
-            this.txtCuotas.Location = new System.Drawing.Point(542, 383);
-            this.txtCuotas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtCuotas.Name = "txtCuotas";
-            this.txtCuotas.Size = new System.Drawing.Size(120, 23);
-            this.txtCuotas.TabIndex = 43;
-            this.txtCuotas.TextChanged += new System.EventHandler(this.txtCuotas_TextChanged);
-            this.txtCuotas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCuotas_KeyPress);
-            // 
-            // txtInteres
-            // 
-            this.txtInteres.Location = new System.Drawing.Point(307, 383);
-            this.txtInteres.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtInteres.Name = "txtInteres";
-            this.txtInteres.Size = new System.Drawing.Size(123, 23);
-            this.txtInteres.TabIndex = 44;
-            this.txtInteres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInteres_KeyPress);
-            // 
             // txtMontodeprestamo
             // 
-            this.txtMontodeprestamo.Location = new System.Drawing.Point(73, 383);
+            this.txtMontodeprestamo.Location = new System.Drawing.Point(74, 383);
             this.txtMontodeprestamo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMontodeprestamo.Name = "txtMontodeprestamo";
-            this.txtMontodeprestamo.Size = new System.Drawing.Size(120, 23);
-            this.txtMontodeprestamo.TabIndex = 45;
+            this.txtMontodeprestamo.Size = new System.Drawing.Size(110, 23);
+            this.txtMontodeprestamo.TabIndex = 43;
             this.txtMontodeprestamo.TextChanged += new System.EventHandler(this.txtMontodeprestamo_TextChanged);
             this.txtMontodeprestamo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMontodeprestamo_KeyPress);
             // 
-            // txtTipodeMoneda
+            // txtInteres
             // 
-            this.txtTipodeMoneda.Location = new System.Drawing.Point(311, 441);
-            this.txtTipodeMoneda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txtTipodeMoneda.Name = "txtTipodeMoneda";
-            this.txtTipodeMoneda.Size = new System.Drawing.Size(110, 23);
-            this.txtTipodeMoneda.TabIndex = 49;
-            this.txtTipodeMoneda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTipodeMoneda_KeyPress);
+            this.txtInteres.Location = new System.Drawing.Point(309, 383);
+            this.txtInteres.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtInteres.Name = "txtInteres";
+            this.txtInteres.Size = new System.Drawing.Size(110, 23);
+            this.txtInteres.TabIndex = 44;
+            this.txtInteres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtInteres_KeyPress);
+            // 
+            // txtNumeroCuotas
+            // 
+            this.txtNumeroCuotas.Location = new System.Drawing.Point(542, 383);
+            this.txtNumeroCuotas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtNumeroCuotas.Name = "txtNumeroCuotas";
+            this.txtNumeroCuotas.Size = new System.Drawing.Size(110, 23);
+            this.txtNumeroCuotas.TabIndex = 45;
+            this.txtNumeroCuotas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCuota_KeyPress);
             // 
             // txtFondodePago
             // 
-            this.txtFondodePago.Location = new System.Drawing.Point(76, 441);
+            this.txtFondodePago.Location = new System.Drawing.Point(74, 443);
             this.txtFondodePago.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFondodePago.Name = "txtFondodePago";
             this.txtFondodePago.Size = new System.Drawing.Size(110, 23);
-            this.txtFondodePago.TabIndex = 48;
+            this.txtFondodePago.TabIndex = 46;
+            this.txtFondodePago.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFondodePago_KeyPress);
+            // 
+            // txtTipodeMoneda
+            // 
+            this.txtTipodeMoneda.Location = new System.Drawing.Point(309, 443);
+            this.txtTipodeMoneda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtTipodeMoneda.Name = "txtTipodeMoneda";
+            this.txtTipodeMoneda.Size = new System.Drawing.Size(110, 23);
+            this.txtTipodeMoneda.TabIndex = 47;
+            this.txtTipodeMoneda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTipodeMoneda_KeyPress);
             // 
             // label24
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.Color.White;
-            this.label24.Location = new System.Drawing.Point(647, 780);
+            this.label24.Location = new System.Drawing.Point(552, 649);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(57, 16);
-            this.label24.TabIndex = 51;
+            this.label24.TabIndex = 49;
             this.label24.Text = "Eliminar";
             // 
             // btnEliminar
@@ -592,11 +580,26 @@ namespace SBPA
             this.btnEliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Location = new System.Drawing.Point(638, 716);
+            this.btnEliminar.Location = new System.Drawing.Point(543, 585);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 61);
-            this.btnEliminar.TabIndex = 50;
+            this.btnEliminar.TabIndex = 48;
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.BackColor = System.Drawing.Color.White;
+            this.btnActualizar.BackgroundImage = global::SBPA.Properties.Resources._13964_removebg_preview;
+            this.btnActualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnActualizar.FlatAppearance.BorderSize = 0;
+            this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnActualizar.Location = new System.Drawing.Point(322, 586);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(75, 61);
+            this.btnActualizar.TabIndex = 50;
+            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // dgvDato
             // 
@@ -604,59 +607,59 @@ namespace SBPA
             this.dgvDato.AllowUserToDeleteRows = false;
             this.dgvDato.AllowUserToResizeColumns = false;
             this.dgvDato.AllowUserToResizeRows = false;
-            this.dgvDato.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgvDato.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDato.BackgroundColor = System.Drawing.Color.White;
             this.dgvDato.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDato.GridColor = System.Drawing.SystemColors.Window;
-            this.dgvDato.Location = new System.Drawing.Point(31, 519);
+            this.dgvDato.Location = new System.Drawing.Point(0, 678);
             this.dgvDato.Name = "dgvDato";
             this.dgvDato.ReadOnly = true;
             this.dgvDato.RowHeadersVisible = false;
             this.dgvDato.RowHeadersWidth = 51;
             this.dgvDato.RowTemplate.Height = 25;
             this.dgvDato.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDato.Size = new System.Drawing.Size(587, 258);
-            this.dgvDato.TabIndex = 52;
+            this.dgvDato.Size = new System.Drawing.Size(789, 245);
+            this.dgvDato.TabIndex = 51;
+            this.dgvDato.DoubleClick += new System.EventHandler(this.dgvDato_DoubleClick);
             // 
-            // PrestamosPersonales
+            // PrestamosHipotecarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(754, 811);
+            this.ClientSize = new System.Drawing.Size(789, 920);
             this.Controls.Add(this.dgvDato);
+            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtTipodeMoneda);
             this.Controls.Add(this.txtFondodePago);
-            this.Controls.Add(this.txtMontodeprestamo);
+            this.Controls.Add(this.txtNumeroCuotas);
             this.Controls.Add(this.txtInteres);
-            this.Controls.Add(this.txtCuotas);
+            this.Controls.Add(this.txtMontodeprestamo);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txtCorreoElectrónico);
+            this.Controls.Add(this.txtCorreoElectronico);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.txtNúmerodeTeléfono);
+            this.Controls.Add(this.txtNumerodeTelefono);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
-            this.Controls.Add(this.txtDirección);
-            this.Controls.Add(this.txtNúmerodeDocumento);
+            this.Controls.Add(this.txtDireccion);
+            this.Controls.Add(this.txtNumerodeDocumento);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.txtTipodeDocumento);
             this.Controls.Add(this.label16);
-            this.Controls.Add(this.txt);
+            this.Controls.Add(this.txtNombreCompleto);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnRegistrar);
-            this.Controls.Add(this.txtMontoTotal);
+            this.Controls.Add(this.txtMontoTotalaPagar);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dtpFechaDeInicio);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.txtMontosCuotas);
-            this.Controls.Add(this.txtTotalInteres);
+            this.Controls.Add(this.txtMontosporCuotas);
+            this.Controls.Add(this.txtTotaldeInteres);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -664,14 +667,14 @@ namespace SBPA
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpFechaRegistro);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNumeroOperacion);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "PrestamosPersonales";
+            this.Name = "PrestamosHipotecarios";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Load += new System.EventHandler(this.PrestamosPersonales_Load);
+            this.Load += new System.EventHandler(this.PrestamosHipotecarios_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -684,9 +687,9 @@ namespace SBPA
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNumeroOperacion;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpFechaRegistro;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -694,29 +697,28 @@ namespace SBPA
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtTotalInteres;
-        private System.Windows.Forms.TextBox txtMontosCuotas;
+        private System.Windows.Forms.TextBox txtTotaldeInteres;
+        private System.Windows.Forms.TextBox txtMontosporCuotas;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dtpFechaDeInicio;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox txtMontoTotal;
-        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.TextBox txtMontoTotalaPagar;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.TextBox txtNombreCompleto;
         private System.Windows.Forms.TextBox txtTipodeDocumento;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox txtNúmerodeDocumento;
-        private System.Windows.Forms.TextBox txtDirección;
+        private System.Windows.Forms.TextBox txtNumerodeDocumento;
+        private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox txtNúmerodeTeléfono;
+        private System.Windows.Forms.TextBox txtNumerodeTelefono;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox txtCorreoElectrónico;
+        private System.Windows.Forms.TextBox txtCorreoElectronico;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
@@ -724,15 +726,16 @@ namespace SBPA
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtDui;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.TextBox txtCuotas;
-        private System.Windows.Forms.TextBox txtInteres;
         private System.Windows.Forms.TextBox txtMontodeprestamo;
-        private System.Windows.Forms.TextBox txtTipodeMoneda;
+        private System.Windows.Forms.TextBox txtInteres;
+        private System.Windows.Forms.TextBox txtNumeroCuotas;
         private System.Windows.Forms.TextBox txtFondodePago;
+        private System.Windows.Forms.TextBox txtTipodeMoneda;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.DataGridView dgvDato;
     }
 }
