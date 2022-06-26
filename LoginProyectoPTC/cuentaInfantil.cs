@@ -223,23 +223,17 @@ namespace SBPA
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            string nombrePadre = txtNombrepadre.Text;
-            string nombreMadre = txtNombremadre.Text;
-            string numeroCuenta = txtNombreCuenta.Text;
-            string NombreBeneficiario = txtNombrebeneficiario.Text;
-            int saldoAhorrado = int.Parse(txtSaldoahorrado.Text.ToString());
-            int saldoRetirar = int.Parse(txtRetirar.Text.ToString());
-            int saldoAbonar = int.Parse(txtSaldoabonar.Text.ToString());
+
 
             if (string.IsNullOrEmpty(txtNombrepadre.Text) || string.IsNullOrEmpty(txtNombremadre.Text) || string.IsNullOrEmpty(txtNombreCuenta.Text)
       || string.IsNullOrEmpty(txtNombrebeneficiario.Text) || string.IsNullOrEmpty(txtSaldoahorrado.Text) || string.IsNullOrEmpty(txtRetirar.Text)
       || string.IsNullOrEmpty(txtSaldoabonar.Text) )
             {
-                MessageBox.Show("Error no se aceptan campos vacios", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                cuenataInfantilSql cuenta = new cuenataInfantilSql(nombrePadre, nombreMadre, numeroCuenta, NombreBeneficiario, saldoAhorrado, saldoAbonar, saldoRetirar);
+                cuenataInfantilSql cuenta = new cuenataInfantilSql(txtNombrepadre.Text, txtNombremadre.Text, txtNombreCuenta.Text, txtNombrebeneficiario.Text, int.Parse(txtSaldoahorrado.Text.ToString()), int.Parse(txtRetirar.Text.ToString()), int.Parse(txtSaldoabonar.Text.ToString()));
                 if (cuenta.Agregar() == true)
                 {
                
@@ -265,15 +259,14 @@ namespace SBPA
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            string nombrePadre = txtNombrepadre.Text;
-            string nombreMadre = txtNombremadre.Text;
-            string numeroCuenta = txtNombreCuenta.Text;
-            string NombreBeneficiario = txtNombrebeneficiario.Text;
-            int saldoAhorrado = int.Parse(txtSaldoahorrado.Text.ToString());
-            int saldoRetirar = int.Parse(txtRetirar.Text.ToString());
-            int saldoAbonar = int.Parse(txtSaldoabonar.Text.ToString());
-
-            cuenataInfantilSql cuenta = new cuenataInfantilSql(nombrePadre, nombreMadre, numeroCuenta, NombreBeneficiario, saldoAhorrado, saldoAbonar, saldoRetirar);
+            if (string.IsNullOrEmpty(txtNombrepadre.Text) || string.IsNullOrEmpty(txtNombremadre.Text) || string.IsNullOrEmpty(txtNombreCuenta.Text)
+|| string.IsNullOrEmpty(txtNombrebeneficiario.Text) || string.IsNullOrEmpty(txtSaldoahorrado.Text) || string.IsNullOrEmpty(txtRetirar.Text)
+|| string.IsNullOrEmpty(txtSaldoabonar.Text))
+            {
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else { 
+                cuenataInfantilSql cuenta = new cuenataInfantilSql(txtNombrepadre.Text, txtNombremadre.Text, txtNombreCuenta.Text, txtNombrebeneficiario.Text, int.Parse(txtSaldoahorrado.Text.ToString()), int.Parse(txtRetirar.Text.ToString()), int.Parse(txtSaldoabonar.Text.ToString()));
             if (cuenta.Actualizar() == true)
             {
                 MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -291,6 +284,7 @@ namespace SBPA
             else
             {
                 MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
             }
         }
 

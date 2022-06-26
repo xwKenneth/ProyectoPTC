@@ -72,6 +72,7 @@ namespace SBPA
             return dt;
         }
 
+
         public PrestamosHipotecariosSql(string iUsuario) //para delete
         {
             Usuario = iUsuario;
@@ -134,7 +135,8 @@ namespace SBPA
                 con.Close();
             }
         }
-
+  
+        
         public bool Actualizar()
         {
 

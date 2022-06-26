@@ -103,5 +103,11 @@ namespace SBPA
         {
 
         }
+
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se ha cerrado la sesión con éxito", "Cierre de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            System.Environment.Exit(0);
+        }
     }
 }

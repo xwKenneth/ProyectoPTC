@@ -337,7 +337,6 @@ namespace SBPA
 
 
 
-
             if (string.IsNullOrEmpty(txtUsuario.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtContraseña.Text)
          || string.IsNullOrEmpty(txtNombreCompleto.Text) || string.IsNullOrEmpty(txtTipodeDocumento.Text) || string.IsNullOrEmpty(txtNumerodeDocumento.Text)
          || string.IsNullOrEmpty(txtDireccion.Text) || string.IsNullOrEmpty(txtNumerodeTelefono.Text) || string.IsNullOrEmpty(txtCorreoElectronico.Text)
@@ -348,7 +347,7 @@ namespace SBPA
 
 
             {
-                MessageBox.Show("Error no se aceptan campos vacios", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se aceptan campos vaciós", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -391,55 +390,54 @@ namespace SBPA
         private void btnActualizar_Click(object sender, EventArgs e)
         {
             string Usuario = dgvDato.CurrentRow.Cells[0].Value.ToString();
-            string DUI = txtDui.Text;
-            string contrasena = txtContraseña.Text;
-            int NumeroOperacion = int.Parse(txtNumeroOperacion.Text.ToString());
-            string FechaRegistro = Convert.ToDateTime(dtpFechaRegistro.Text).ToString("yyyy-MM-dd");
-            string NombreCliente = txtNombreCompleto.Text;
-            string tipoDocumento = txtTipodeDocumento.Text;
-            string numeroDeDocumento = txtNumerodeDocumento.Text;
-            string DireccionCliente = txtDireccion.Text;
-            string NumeroTelefono = txtNumerodeTelefono.Text;
-            string Correo_Electronico = txtCorreoElectronico.Text;
-            int MontoPrestamo = int.Parse(txtMontodeprestamo.Text.ToString());
-            int Interes = int.Parse(txtInteres.Text.ToString());
-            int NumeroCuotas = int.Parse(txtNumeroCuotas.Text.ToString());
-            int FondoPago = int.Parse(txtFondodePago.Text.ToString());
-            string TipoMoneda = txtTipodeMoneda.Text;
-            string FechaInicio = Convert.ToDateTime(dtpFechaDeInicio.Text).ToString("yyyy-MM-dd");
-            int MontoPorCuotas = int.Parse(txtMontosporCuotas.Text.ToString());
-            int TotalInteres = int.Parse(txtTotaldeInteres.Text.ToString());
-            int MontoTotal = int.Parse(txtMontoTotalaPagar.Text.ToString());
 
-            PrestamosHipotecariosSql cuenta = new PrestamosHipotecariosSql(Usuario, DUI, contrasena, NumeroOperacion, FechaRegistro,
-                   NombreCliente, tipoDocumento, numeroDeDocumento, DireccionCliente, NumeroTelefono, Correo_Electronico, MontoPrestamo,
-                   Interes, NumeroCuotas, FondoPago, TipoMoneda, FechaInicio, MontoPorCuotas, TotalInteres, MontoTotal);
-            if (cuenta.Actualizar() == true)
+
+
+            if (string.IsNullOrEmpty(txtUsuario.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtContraseña.Text)
+         || string.IsNullOrEmpty(txtNombreCompleto.Text) || string.IsNullOrEmpty(txtTipodeDocumento.Text) || string.IsNullOrEmpty(txtNumerodeDocumento.Text)
+         || string.IsNullOrEmpty(txtDireccion.Text) || string.IsNullOrEmpty(txtNumerodeTelefono.Text) || string.IsNullOrEmpty(txtCorreoElectronico.Text)
+         || string.IsNullOrEmpty(txtMontodeprestamo.Text) || string.IsNullOrEmpty(txtInteres.Text) || string.IsNullOrEmpty(txtNumeroCuotas.Text)
+         || string.IsNullOrEmpty(txtFondodePago.Text) || string.IsNullOrEmpty(txtTipodeMoneda.Text) || string.IsNullOrEmpty(txtMontosporCuotas.Text)
+         || string.IsNullOrEmpty(txtTotaldeInteres.Text) || string.IsNullOrEmpty(txtMontoTotalaPagar.Text)
+         )
+
+
             {
-                MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                txtUsuario.Clear();
-                txtDui.Clear();
-                txtContraseña.Clear();
-                txtNumeroOperacion.Clear();
-                txtNombreCompleto.Clear();
-                txtTipodeDocumento.Clear();
-                txtNumerodeDocumento.Clear();
-                txtDireccion.Clear();
-                txtNumerodeTelefono.Clear();
-                txtCorreoElectronico.Clear();
-                txtMontodeprestamo.Clear();
-                txtInteres.Clear();
-                txtNumeroCuotas.Clear();
-                txtFondodePago.Clear();
-                txtTipodeMoneda.Clear();
-                txtMontosporCuotas.Clear();
-                txtTotaldeInteres.Clear();
-                txtMontoTotalaPagar.Clear();
-                MostrarDatos();
+                MessageBox.Show("Error no se aceptan campos vaciós", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                PrestamosHipotecariosSql cuenta = new PrestamosHipotecariosSql(Usuario, txtDui.Text, txtContraseña.Text, int.Parse(txtNumeroOperacion.Text.ToString()),
+                   Convert.ToDateTime(dtpFechaRegistro.Text).ToString("yyyy-MM-dd"), txtNombreCompleto.Text, txtTipodeDocumento.Text, txtNumerodeDocumento.Text, txtDireccion.Text, txtNumerodeTelefono.Text, txtCorreoElectronico.Text, int.Parse(txtMontodeprestamo.Text.ToString()),
+                 int.Parse(txtInteres.Text.ToString()), int.Parse(txtNumeroCuotas.Text.ToString()), int.Parse(txtFondodePago.Text.ToString()), txtTipodeMoneda.Text, Convert.ToDateTime(dtpFechaDeInicio.Text).ToString("yyyy-MM-dd"), int.Parse(txtMontosporCuotas.Text.ToString()),
+                   int.Parse(txtTotaldeInteres.Text.ToString()), int.Parse(txtMontoTotalaPagar.Text.ToString()));
+                if (cuenta.Actualizar() == true)
+                {
+                    MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtUsuario.Clear();
+                    txtDui.Clear();
+                    txtContraseña.Clear();
+                    txtNumeroOperacion.Clear();
+                    txtNombreCompleto.Clear();
+                    txtTipodeDocumento.Clear();
+                    txtNumerodeDocumento.Clear();
+                    txtDireccion.Clear();
+                    txtNumerodeTelefono.Clear();
+                    txtCorreoElectronico.Clear();
+                    txtMontodeprestamo.Clear();
+                    txtInteres.Clear();
+                    txtNumeroCuotas.Clear();
+                    txtFondodePago.Clear();
+                    txtTipodeMoneda.Clear();
+                    txtMontosporCuotas.Clear();
+                    txtTotaldeInteres.Clear();
+                    txtMontoTotalaPagar.Clear();
+                    MostrarDatos();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 
@@ -514,5 +512,7 @@ namespace SBPA
                     + " registro válido");
             }
         }
+
+
     }
 }

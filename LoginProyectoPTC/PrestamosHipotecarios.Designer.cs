@@ -65,7 +65,7 @@ namespace SBPA
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtDui = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnVerificiar = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -418,7 +418,7 @@ namespace SBPA
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(31)))), ((int)(((byte)(54)))));
             this.panel1.Controls.Add(this.txtDui);
             this.panel1.Controls.Add(this.label23);
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.btnVerificiar);
             this.panel1.Controls.Add(this.label22);
             this.panel1.Controls.Add(this.txtContraseña);
             this.panel1.Controls.Add(this.txtUsuario);
@@ -452,20 +452,20 @@ namespace SBPA
             this.label23.TabIndex = 6;
             this.label23.Text = "DUI:";
             // 
-            // button2
+            // btnVerificiar
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(555, 61);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 32);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Verificar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnVerificiar.BackColor = System.Drawing.Color.White;
+            this.btnVerificiar.FlatAppearance.BorderSize = 0;
+            this.btnVerificiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVerificiar.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnVerificiar.ForeColor = System.Drawing.Color.Black;
+            this.btnVerificiar.Location = new System.Drawing.Point(555, 61);
+            this.btnVerificiar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnVerificiar.Name = "btnVerificiar";
+            this.btnVerificiar.Size = new System.Drawing.Size(120, 32);
+            this.btnVerificiar.TabIndex = 5;
+            this.btnVerificiar.Text = "Verificar";
+            this.btnVerificiar.UseVisualStyleBackColor = false;
             // 
             // label22
             // 
@@ -721,7 +721,7 @@ namespace SBPA
         private System.Windows.Forms.TextBox txtCorreoElectronico;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnVerificiar;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.TextBox txtUsuario;

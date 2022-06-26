@@ -64,7 +64,7 @@ namespace SBPA
                 || string.IsNullOrEmpty(txtTelefenoTrabajo.Text) || string.IsNullOrEmpty(txtBeneficiario.Text) || string.IsNullOrEmpty(txtSalarioMensual.Text)
                 )
             {
-                MessageBox.Show("Error no se aceptan campos vacios", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {

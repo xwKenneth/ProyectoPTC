@@ -164,7 +164,7 @@ namespace SBPA
             if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtCuenta.Text) ||
                 string.IsNullOrEmpty(txtDinero.Text) || string.IsNullOrEmpty(txtInteres.Text) || string.IsNullOrEmpty(txtTotal.Text))
             {
-                MessageBox.Show("Error no se aceptan campos vacíos", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -221,32 +221,35 @@ namespace SBPA
 
 
         private void btnActualizar_Click(object sender, EventArgs e)
-        {
-            string Nombre = txtNombre.Text;
-            string Dui = txtDui.Text;
+        { 
             string NumeroCuenta = dgvDatos.CurrentRow.Cells[2].Value.ToString();
-            int DineroGuardar = int.Parse(txtDinero.Text.ToString());
-            int Interes = int.Parse(txtInteres.Text.ToString());
-            int Total = int.Parse(txtTotal.Text.ToString());
-            string FechaVencimiento = Convert.ToDateTime(dtpFechaVencimiento.Text).ToString("yyyy-MM-dd");
 
-            certificadosLargoplazoSql cuenta = new certificadosLargoplazoSql(Nombre, Dui, NumeroCuenta, DineroGuardar, Interes, Total, FechaVencimiento);
-            if (cuenta.Actualizar() == true)
+
+            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtCuenta.Text) ||
+    string.IsNullOrEmpty(txtDinero.Text) || string.IsNullOrEmpty(txtInteres.Text) || string.IsNullOrEmpty(txtTotal.Text))
             {
-                MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-                txtNombre.Clear();
-                txtDui.Clear();
-                txtCuenta.Clear();
-                txtDui.Clear();
-                txtDinero.Clear();
-                txtInteres.Clear();
-                txtTotal.Clear();
-                MostrarDatos();
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                certificadosLargoplazoSql cuenta = new certificadosLargoplazoSql(txtNombre.Text, txtDui.Text, NumeroCuenta, int.Parse(txtDinero.Text.ToString()), int.Parse(txtInteres.Text.ToString()), int.Parse(txtTotal.Text.ToString()), Convert.ToDateTime(dtpFechaVencimiento.Text).ToString("yyyy-MM-dd"));
+                if (cuenta.Actualizar() == true)
+                {
+                    MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                    txtNombre.Clear();
+                    txtDui.Clear();
+                    txtCuenta.Clear();
+                    txtDui.Clear();
+                    txtDinero.Clear();
+                    txtInteres.Clear();
+                    txtTotal.Clear();
+                    MostrarDatos();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

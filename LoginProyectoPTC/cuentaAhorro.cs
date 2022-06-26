@@ -59,23 +59,17 @@ namespace SBPA
         private void btnAgregar_Click(object sender, EventArgs e)
         {
 
-            string Nombre = txtNombre.Text;
-            string Dui = txtDui.Text;
-            string NumeroCuenta = txtNumeroCuenta.Text;
-            int SaldoAhorrado = int.Parse(txtAhorrado.Text.ToString());
-            int SaldoAbonar = int.Parse(txtAbonar.Text.ToString());
-            int SaldoRetirar = int.Parse(txtRetirar.Text.ToString());
 
          
 
             if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtNumeroCuenta.Text) ||
                 string.IsNullOrEmpty(txtAhorrado.Text) || string.IsNullOrEmpty(txtAbonar.Text) || string.IsNullOrEmpty(txtRetirar.Text))
             {
-                MessageBox.Show("Error no se aceptan campos vacíos", "Porfavor ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, Dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
+                cuentaAhorroSql cuenta = new cuentaAhorroSql(txtNombre.Text, txtDui.Text, txtNumeroCuenta.Text, int.Parse(txtAhorrado.Text.ToString()), int.Parse(txtAbonar.Text.ToString()), int.Parse(txtRetirar.Text.ToString()));
                 if (cuenta.Agregar() == true)
                 {
                     MessageBox.Show("Cuenta agregada exitosamente",
@@ -101,30 +95,33 @@ namespace SBPA
         {
       
 
-            string Nombre = txtNombre.Text;
             string NumeroCuenta = dgvDato.CurrentRow.Cells[2].Value.ToString();
-            string dui = txtDui.Text;
-            int SaldoAhorrado = int.Parse(txtAhorrado.Text.ToString());
-            int SaldoAbonar = int.Parse(txtAbonar.Text.ToString());
-            int SaldoRetirar = int.Parse(txtRetirar.Text.ToString());
 
-            cuentaAhorroSql cuenta = new cuentaAhorroSql(Nombre, dui, NumeroCuenta, SaldoAhorrado, SaldoAbonar, SaldoRetirar);
-            if (cuenta.Actualizar() == true)
+            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtDui.Text) || string.IsNullOrEmpty(txtNumeroCuenta.Text) ||
+                string.IsNullOrEmpty(txtAhorrado.Text) || string.IsNullOrEmpty(txtAbonar.Text) || string.IsNullOrEmpty(txtRetirar.Text))
             {
-                MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-                txtNombre.Clear();
-                txtDui.Clear();
-                txtNumeroCuenta.Clear();
-                txtDui.Clear();
-                txtAhorrado.Clear();
-                txtAbonar.Clear();
-                txtRetirar.Clear();
-                MostrarDatos();
+                MessageBox.Show("Error no se aceptan campos vacíos", "Por favor, ingrese texto", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cuentaAhorroSql cuenta = new cuentaAhorroSql(txtNombre.Text, txtDui.Text, NumeroCuenta, int.Parse(txtAhorrado.Text.ToString()), int.Parse(txtAbonar.Text.ToString()), int.Parse(txtRetirar.Text.ToString()));
+                if (cuenta.Actualizar() == true)
+                {
+                    MessageBox.Show("Cliente Actualizado", " Resultado", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                    txtNombre.Clear();
+                    txtDui.Clear();
+                    txtNumeroCuenta.Clear();
+                    txtDui.Clear();
+                    txtAhorrado.Clear();
+                    txtAbonar.Clear();
+                    txtRetirar.Clear();
+                    MostrarDatos();
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error", " Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

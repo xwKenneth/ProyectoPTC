@@ -36,7 +36,7 @@ namespace SBPA
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.btnPrestamos = new System.Windows.Forms.Button();
-            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnCertificados = new System.Windows.Forms.Button();
             this.btnHipotecarios = new System.Windows.Forms.Button();
             this.btnAhorro = new System.Windows.Forms.Button();
@@ -93,7 +93,7 @@ namespace SBPA
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.btnBuscar);
             this.panel1.Controls.Add(this.btnPrestamos);
-            this.panel1.Controls.Add(this.btnCerrar);
+            this.panel1.Controls.Add(this.btnCerrarSesion);
             this.panel1.Controls.Add(this.btnCertificados);
             this.panel1.Controls.Add(this.btnHipotecarios);
             this.panel1.Controls.Add(this.btnAhorro);
@@ -169,19 +169,20 @@ namespace SBPA
             this.btnPrestamos.UseVisualStyleBackColor = true;
             this.btnPrestamos.Click += new System.EventHandler(this.btnPrestamos_Click);
             // 
-            // btnCerrar
+            // btnCerrarSesion
             // 
-            this.btnCerrar.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btnCerrar.FlatAppearance.BorderSize = 0;
-            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCerrar.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnCerrar.ForeColor = System.Drawing.Color.White;
-            this.btnCerrar.Location = new System.Drawing.Point(0, 657);
-            this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(186, 33);
-            this.btnCerrar.TabIndex = 4;
-            this.btnCerrar.Text = "Cerrar sesión";
-            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
+            this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCerrarSesion.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 657);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(186, 33);
+            this.btnCerrarSesion.TabIndex = 4;
+            this.btnCerrarSesion.Text = "Cerrar sesión";
+            this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
             // 
             // btnCertificados
             // 
@@ -623,7 +624,7 @@ namespace SBPA
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Button btnPrestamos;
-        private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnCerrarSesion;
         private System.Windows.Forms.Button btnCertificados;
         private System.Windows.Forms.Button btnHipotecarios;
         private System.Windows.Forms.Button btnAhorro;
