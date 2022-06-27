@@ -282,5 +282,17 @@ namespace SBPA
                 MessageBox.Show("Solo se admiten datos númericos", "validación de números", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            dashboard main = new dashboard();
+            main.Show();
+            this.Hide();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

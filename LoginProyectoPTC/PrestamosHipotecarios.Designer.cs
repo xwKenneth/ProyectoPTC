@@ -80,6 +80,8 @@ namespace SBPA
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.dgvDato = new System.Windows.Forms.DataGridView();
+            this.btnMinimizar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDato)).BeginInit();
@@ -416,7 +418,9 @@ namespace SBPA
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(31)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.btnMinimizar);
             this.panel1.Controls.Add(this.txtDui);
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.label23);
             this.panel1.Controls.Add(this.btnVerificiar);
             this.panel1.Controls.Add(this.label22);
@@ -622,6 +626,36 @@ namespace SBPA
             this.dgvDato.TabIndex = 51;
             this.dgvDato.DoubleClick += new System.EventHandler(this.dgvDato_DoubleClick);
             // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.BackgroundImage = global::SBPA.Properties.Resources.minimazar;
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnMinimizar.Location = new System.Drawing.Point(704, 3);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(35, 31);
+            this.btnMinimizar.TabIndex = 53;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackgroundImage = global::SBPA.Properties.Resources.cerrar;
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSalir.Location = new System.Drawing.Point(750, 3);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(35, 31);
+            this.btnSalir.TabIndex = 52;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // PrestamosHipotecarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -737,6 +771,8 @@ namespace SBPA
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.DataGridView dgvDato;
+        private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

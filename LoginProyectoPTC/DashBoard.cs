@@ -28,7 +28,8 @@ namespace SBPA
         private void btnAhorro_Click(object sender, EventArgs e)
         {
             cuentaAhorro f3 = new cuentaAhorro();  
-            f3.Show();  
+            f3.Show();
+            this.Hide();
   
         }
 
@@ -36,21 +37,21 @@ namespace SBPA
         {
             PrestamosHipotecarios f4 = new PrestamosHipotecarios();
             f4.Show();
-        
+            this.Hide();
         }
 
         private void btnCertificados_Click(object sender, EventArgs e)
         {
             certificadosLargoplazo f5 = new certificadosLargoplazo();
             f5.Show();
-        
+            this.Hide();
         }
 
         private void btnPrestamos_Click(object sender, EventArgs e)
         {
             PrestamosPersonales f6 = new PrestamosPersonales();
             f6.Show();
-           
+            this.Hide();
         }
 
         private void dashboard_Load(object sender, EventArgs e)
@@ -71,12 +72,14 @@ namespace SBPA
         {
             cuentaInfantil f7 = new cuentaInfantil();
             f7.Show();
+            this.Hide();
         }
 
         private void btnCrearCuenta_Click(object sender, EventArgs e)
         {
             creacionCliente f8 = new creacionCliente();
             f8.Show();
+            this.Hide();
         }
 
         private void label16_Click(object sender, EventArgs e)
@@ -107,6 +110,21 @@ namespace SBPA
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Se ha cerrado la sesión con éxito", "Cierre de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            System.Environment.Exit(0);
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
             System.Environment.Exit(0);
         }
     }

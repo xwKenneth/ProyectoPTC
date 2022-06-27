@@ -31,6 +31,8 @@ namespace SBPA
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnMinimizar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.txtNombrebeneficiario = new System.Windows.Forms.TextBox();
             this.txtNombreCuenta = new System.Windows.Forms.TextBox();
             this.txtNombremadre = new System.Windows.Forms.TextBox();
@@ -63,6 +65,8 @@ namespace SBPA
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.panel1.Controls.Add(this.btnMinimizar);
+            this.panel1.Controls.Add(this.btnSalir);
             this.panel1.Controls.Add(this.txtNombrebeneficiario);
             this.panel1.Controls.Add(this.txtNombreCuenta);
             this.panel1.Controls.Add(this.txtNombremadre);
@@ -79,6 +83,36 @@ namespace SBPA
             this.panel1.Size = new System.Drawing.Size(800, 200);
             this.panel1.TabIndex = 0;
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.BackgroundImage = global::SBPA.Properties.Resources.minimazar;
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnMinimizar.Location = new System.Drawing.Point(711, 1);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(35, 31);
+            this.btnMinimizar.TabIndex = 11;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackgroundImage = global::SBPA.Properties.Resources.cerrar;
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSalir.Location = new System.Drawing.Point(757, 1);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(35, 31);
+            this.btnSalir.TabIndex = 10;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtNombrebeneficiario
             // 
@@ -375,6 +409,8 @@ namespace SBPA
         private System.Windows.Forms.TextBox txtRetirar;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.DataGridView dgvDatos;
+        private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

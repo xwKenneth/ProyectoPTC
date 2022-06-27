@@ -202,3 +202,39 @@ C:\Users\Javier\OneDrive\Escritorio\grupo expo\LoginProyectoPTC\obj\Debug\net5.0
 C:\Users\Javier\OneDrive\Escritorio\grupo expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
 C:\Users\Javier\OneDrive\Escritorio\grupo expo\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
 C:\Users\Javier\OneDrive\Escritorio\grupo expo\LoginProyectoPTC\bin\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.exe
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.deps.json
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.json
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.runtimeconfig.dev.json
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Control.Draggable.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Google.Protobuf.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\MySql.Data.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.certificadosLargoplazo.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.creacionCliente.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaAhorro.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.cuentaInfantil.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dashboard.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Login.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosHipotecarios.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.PrestamosPersonales.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.Properties.Resources.resources
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.GenerateResource.cache
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.csproj.CopyComplete
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\refint\SBPA.dll
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
+C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll

@@ -34,7 +34,6 @@ namespace SBPA
             this.btnCrearCuenta = new System.Windows.Forms.Button();
             this.btnCeuntaInfantil = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnBuscar = new System.Windows.Forms.Button();
             this.btnPrestamos = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
             this.btnCertificados = new System.Windows.Forms.Button();
@@ -46,7 +45,9 @@ namespace SBPA
             this.pnlNav = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnMinimizar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -70,6 +71,7 @@ namespace SBPA
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.btnMaximizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -91,7 +93,6 @@ namespace SBPA
             this.panel1.Controls.Add(this.btnCrearCuenta);
             this.panel1.Controls.Add(this.btnCeuntaInfantil);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.btnBuscar);
             this.panel1.Controls.Add(this.btnPrestamos);
             this.panel1.Controls.Add(this.btnCerrarSesion);
             this.panel1.Controls.Add(this.btnCertificados);
@@ -106,12 +107,12 @@ namespace SBPA
             // 
             // btnCrearCuenta
             // 
-            this.btnCrearCuenta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCrearCuenta.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnCrearCuenta.FlatAppearance.BorderSize = 0;
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCrearCuenta.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCrearCuenta.Location = new System.Drawing.Point(-3, 326);
+            this.btnCrearCuenta.Location = new System.Drawing.Point(-3, 329);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
             this.btnCrearCuenta.Size = new System.Drawing.Size(186, 33);
             this.btnCrearCuenta.TabIndex = 8;
@@ -121,7 +122,7 @@ namespace SBPA
             // 
             // btnCeuntaInfantil
             // 
-            this.btnCeuntaInfantil.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCeuntaInfantil.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnCeuntaInfantil.FlatAppearance.BorderSize = 0;
             this.btnCeuntaInfantil.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCeuntaInfantil.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -141,22 +142,9 @@ namespace SBPA
             this.panel3.Size = new System.Drawing.Size(766, 14);
             this.panel3.TabIndex = 2;
             // 
-            // btnBuscar
-            // 
-            this.btnBuscar.FlatAppearance.BorderSize = 0;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBuscar.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnBuscar.ForeColor = System.Drawing.Color.White;
-            this.btnBuscar.Location = new System.Drawing.Point(1, 713);
-            this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(186, 33);
-            this.btnBuscar.TabIndex = 6;
-            this.btnBuscar.Text = "Buscar cliente";
-            this.btnBuscar.UseVisualStyleBackColor = true;
-            // 
             // btnPrestamos
             // 
-            this.btnPrestamos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnPrestamos.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnPrestamos.FlatAppearance.BorderSize = 0;
             this.btnPrestamos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPrestamos.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -171,12 +159,12 @@ namespace SBPA
             // 
             // btnCerrarSesion
             // 
-            this.btnCerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnCerrarSesion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCerrarSesion.FlatAppearance.BorderSize = 0;
             this.btnCerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCerrarSesion.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCerrarSesion.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 657);
+            this.btnCerrarSesion.Location = new System.Drawing.Point(0, 654);
             this.btnCerrarSesion.Name = "btnCerrarSesion";
             this.btnCerrarSesion.Size = new System.Drawing.Size(186, 33);
             this.btnCerrarSesion.TabIndex = 4;
@@ -186,12 +174,12 @@ namespace SBPA
             // 
             // btnCertificados
             // 
-            this.btnCertificados.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCertificados.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnCertificados.FlatAppearance.BorderSize = 0;
             this.btnCertificados.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCertificados.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnCertificados.ForeColor = System.Drawing.Color.White;
-            this.btnCertificados.Location = new System.Drawing.Point(0, 219);
+            this.btnCertificados.Location = new System.Drawing.Point(3, 217);
             this.btnCertificados.Name = "btnCertificados";
             this.btnCertificados.Size = new System.Drawing.Size(186, 33);
             this.btnCertificados.TabIndex = 3;
@@ -201,7 +189,7 @@ namespace SBPA
             // 
             // btnHipotecarios
             // 
-            this.btnHipotecarios.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnHipotecarios.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnHipotecarios.FlatAppearance.BorderSize = 0;
             this.btnHipotecarios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnHipotecarios.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -216,7 +204,7 @@ namespace SBPA
             // 
             // btnAhorro
             // 
-            this.btnAhorro.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAhorro.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btnAhorro.FlatAppearance.BorderSize = 0;
             this.btnAhorro.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAhorro.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -233,7 +221,6 @@ namespace SBPA
             // 
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(186, 144);
@@ -278,13 +265,31 @@ namespace SBPA
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel5.Controls.Add(this.btnMaximizar);
+            this.panel5.Controls.Add(this.btnMinimizar);
             this.panel5.Controls.Add(this.button1);
+            this.panel5.Controls.Add(this.btnSalir);
             this.panel5.Controls.Add(this.label4);
             this.panel5.Location = new System.Drawing.Point(0, 0);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1461, 31);
+            this.panel5.Size = new System.Drawing.Size(1418, 31);
             this.panel5.TabIndex = 4;
             this.panel5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel5_MouseDown);
+            // 
+            // btnMinimizar
+            // 
+            this.btnMinimizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimizar.BackgroundImage = global::SBPA.Properties.Resources.minimazar;
+            this.btnMinimizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMinimizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMinimizar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnMinimizar.Location = new System.Drawing.Point(1295, 0);
+            this.btnMinimizar.Name = "btnMinimizar";
+            this.btnMinimizar.Size = new System.Drawing.Size(35, 31);
+            this.btnMinimizar.TabIndex = 16;
+            this.btnMinimizar.UseVisualStyleBackColor = false;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // button1
             // 
@@ -299,6 +304,21 @@ namespace SBPA
             this.button1.Size = new System.Drawing.Size(27, 25);
             this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Transparent;
+            this.btnSalir.BackgroundImage = global::SBPA.Properties.Resources.cerrar;
+            this.btnSalir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalir.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnSalir.Location = new System.Drawing.Point(1377, 0);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(31, 30);
+            this.btnSalir.TabIndex = 15;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // label4
             // 
@@ -575,6 +595,21 @@ namespace SBPA
             this.label16.Text = "Dirigir";
             this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
+            // btnMaximizar
+            // 
+            this.btnMaximizar.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaximizar.BackgroundImage = global::SBPA.Properties.Resources.maxi;
+            this.btnMaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMaximizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
+            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaximizar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnMaximizar.Location = new System.Drawing.Point(1338, 0);
+            this.btnMaximizar.Name = "btnMaximizar";
+            this.btnMaximizar.Size = new System.Drawing.Size(32, 29);
+            this.btnMaximizar.TabIndex = 17;
+            this.btnMaximizar.UseVisualStyleBackColor = false;
+            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -661,6 +696,9 @@ namespace SBPA
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnCrearCuenta;
+        private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnMaximizar;
     }
 }
 

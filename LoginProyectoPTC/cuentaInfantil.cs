@@ -308,5 +308,17 @@ namespace SBPA
                 MessageBox.Show("Debe hacer doble click en un registro válido");
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            dashboard main = new dashboard();
+            main.Show();
+            this.Hide();
+        }
+
+        private void btnMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
