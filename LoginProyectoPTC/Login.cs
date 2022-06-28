@@ -72,38 +72,44 @@ namespace SBPA
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string cs = "server=127.0.0.1;userid=root;database=Banco_Americano";
-            MySqlConnection myConn = new MySqlConnection(cs);
-            MySqlCommand SelectCommand = new MySqlCommand("select * from Banco_Americano.login where usuario='" + this.txtUsername.Text + "' and contrasena='"+this.txtPassword.Text + "' ;",myConn);
-
-            MySqlDataReader myReader;
+            string cs = "server=127.0.0.1;userid=root;database=Datos_BancoAmericano";
+            var con = new MySqlConnection(cs);    
+            
 
 
             try
             {
-                myConn.Open();
-                myReader = SelectCommand.ExecuteReader();
-                int count = 0;
-                while (myReader.Read())
+                con.Open();
+                string stm = "select usuario, contrasena, tipo_usuario from login WHERE usuario = @txtUsuario AND contrasena = @txtContra";
+
+                var cmd = new MySqlCommand(stm, con);
+
+                cmd.Parameters.AddWithValue("txtUsuario", txtUsername.Text);
+                cmd.Parameters.AddWithValue("@txtContra", txtPassword.Text);
+
+                MySqlDataReader rd = cmd.ExecuteReader();
+
+                if (rd.Read())
                 {
-                    count++;
+                    if (rd[2].ToString() == "0")
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso \nBienvenido Admin!");
+                        this.Hide();
+                        dashboard f2 = new dashboard();
+                        f2.ShowDialog();
+                    }
+                    else if (rd[2].ToString() == "1")
+                    {
+                        MessageBox.Show("Inicio de sesión exitoso \n Bienvenido Empleado");
+                        this.Hide();
+                        dashboard f2 = new dashboard();
+                        f2.ShowDialog();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o Contraseña incorrecto!", "\nAcceso denegado");
+                    }
                 }
-                if (count == 1)
-                {
-                    MessageBox.Show("Inicio de sesión exitoso");
-                    this.Hide();
-                    dashboard f2 = new dashboard(); 
-                    f2.ShowDialog();
-                }
-                else if (count > 1)
-                {
-                    MessageBox.Show("Usuario y contraseña duplicados","\nAcceso denegado");
-                }
-                else
-                {
-                    MessageBox.Show("Usuario o Contraseña incorrecto!","\nAcceso denegado");
-                }
-                myConn.Close();
             }
             catch (Exception ex)
             {
