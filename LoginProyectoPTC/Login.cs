@@ -116,5 +116,10 @@ namespace SBPA
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }

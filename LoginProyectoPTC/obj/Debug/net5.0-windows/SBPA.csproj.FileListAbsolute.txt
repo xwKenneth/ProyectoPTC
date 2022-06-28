@@ -238,3 +238,9 @@ C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debu
 C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.pdb
 C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\SBPA.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\Proyecto PTC cosas\ProyectoPTC\LoginProyectoPTC\obj\Debug\net5.0-windows\ref\SBPA.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kenne\source\repos\ProyectoPTC\LoginProyectoPTC\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

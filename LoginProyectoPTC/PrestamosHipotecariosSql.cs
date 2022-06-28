@@ -61,15 +61,17 @@ namespace SBPA
 
         public DataTable MostrarDatos()
         {
-            string comando = "SELECT * FROM prestamos_hipotecarios;";
-            MySqlConnection con = c.Conectar();
 
-            DataTable dt = new DataTable();
+                string comando = "SELECT *  FROM prestamos_hipotecarios;";
+                MySqlConnection con = c.Conectar();
 
-            MySqlDataAdapter adapter =
-                new MySqlDataAdapter(comando, con);
-            adapter.Fill(dt);
-            return dt;
+                DataTable dt = new DataTable();
+
+                MySqlDataAdapter adapter =
+                    new MySqlDataAdapter(comando, con);
+                adapter.Fill(dt);
+                return dt;
+
         }
 
 

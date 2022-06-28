@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -57,6 +59,7 @@ namespace SBPA
         private void dashboard_Load(object sender, EventArgs e)
         {
             this.Draggable(true);
+            ActualizarClientesRegistrados();
         }
 
         private void panel5_MouseDown(object sender, MouseEventArgs e)
@@ -109,8 +112,34 @@ namespace SBPA
 
         private void btnCerrarSesion_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Login CerrarSesionVentana = new Login();
+            CerrarSesionVentana.Show();
             MessageBox.Show("Se ha cerrado la sesión con éxito", "Cierre de Sesión", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            System.Environment.Exit(0);
+
+        }
+        public void ActualizarClientesRegistrados()
+        {
+
+            Conexion c = new Conexion();
+
+            MySqlConnection con = c.Conectar();
+
+            con.Open();
+
+            string comm = "SELECT COUNT(*) FROM crear_cliente";
+
+            MySqlCommand cmd = new MySqlCommand(comm, con);
+            Int32 count = Convert.ToInt32(cmd.ExecuteScalar());
+            if (count > 0)
+            {
+                lbClientesRegistrados.Text = Convert.ToString(count.ToString()); //For example a Label
+            }
+            else
+            {
+                lbClientesRegistrados.Text = "0";
+            }
+            con.Close(); //Remember close the connection
         }
 
         private void btnMinimizar_Click(object sender, EventArgs e)

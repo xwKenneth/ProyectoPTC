@@ -54,9 +54,8 @@ namespace SBPA
             this.label5 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbClientesRegistrados = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -71,7 +70,6 @@ namespace SBPA
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.btnMaximizar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -265,7 +263,6 @@ namespace SBPA
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel5.Controls.Add(this.btnMaximizar);
             this.panel5.Controls.Add(this.btnMinimizar);
             this.panel5.Controls.Add(this.button1);
             this.panel5.Controls.Add(this.btnSalir);
@@ -284,7 +281,7 @@ namespace SBPA
             this.btnMinimizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
             this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimizar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnMinimizar.Location = new System.Drawing.Point(1295, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(1332, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(35, 31);
             this.btnMinimizar.TabIndex = 16;
@@ -313,7 +310,7 @@ namespace SBPA
             this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnSalir.Location = new System.Drawing.Point(1377, 0);
+            this.btnSalir.Location = new System.Drawing.Point(1375, 1);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(31, 30);
             this.btnSalir.TabIndex = 15;
@@ -369,9 +366,8 @@ namespace SBPA
             // 
             this.panel7.BackColor = System.Drawing.Color.DimGray;
             this.panel7.Controls.Add(this.pictureBox9);
-            this.panel7.Controls.Add(this.label11);
             this.panel7.Controls.Add(this.label7);
-            this.panel7.Controls.Add(this.label8);
+            this.panel7.Controls.Add(this.lbClientesRegistrados);
             this.panel7.Controls.Add(this.label9);
             this.panel7.Location = new System.Drawing.Point(529, 78);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -390,18 +386,6 @@ namespace SBPA
             this.pictureBox9.TabIndex = 6;
             this.pictureBox9.TabStop = false;
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(4, 101);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(77, 15);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "25 New Users";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -413,17 +397,17 @@ namespace SBPA
             this.label7.Size = new System.Drawing.Size(0, 15);
             this.label7.TabIndex = 5;
             // 
-            // label8
+            // lbClientesRegistrados
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label8.Location = new System.Drawing.Point(35, 33);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 46);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "250";
+            this.lbClientesRegistrados.AutoSize = true;
+            this.lbClientesRegistrados.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbClientesRegistrados.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lbClientesRegistrados.Location = new System.Drawing.Point(35, 33);
+            this.lbClientesRegistrados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbClientesRegistrados.Name = "lbClientesRegistrados";
+            this.lbClientesRegistrados.Size = new System.Drawing.Size(80, 46);
+            this.lbClientesRegistrados.TabIndex = 4;
+            this.lbClientesRegistrados.Text = "250";
             // 
             // label9
             // 
@@ -529,9 +513,9 @@ namespace SBPA
             this.label14.Location = new System.Drawing.Point(28, 31);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(60, 46);
+            this.label14.Size = new System.Drawing.Size(40, 46);
             this.label14.TabIndex = 4;
-            this.label14.Text = "58";
+            this.label14.Text = "0";
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label15
@@ -578,9 +562,9 @@ namespace SBPA
             this.label12.Location = new System.Drawing.Point(17, 31);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 46);
+            this.label12.Size = new System.Drawing.Size(40, 46);
             this.label12.TabIndex = 4;
-            this.label12.Text = "120";
+            this.label12.Text = "5";
             // 
             // label16
             // 
@@ -590,25 +574,10 @@ namespace SBPA
             this.label16.Location = new System.Drawing.Point(16, 16);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(39, 15);
+            this.label16.Size = new System.Drawing.Size(52, 15);
             this.label16.TabIndex = 0;
-            this.label16.Text = "Dirigir";
+            this.label16.Text = "Personal";
             this.label16.Click += new System.EventHandler(this.label16_Click);
-            // 
-            // btnMaximizar
-            // 
-            this.btnMaximizar.BackColor = System.Drawing.Color.Transparent;
-            this.btnMaximizar.BackgroundImage = global::SBPA.Properties.Resources.maxi;
-            this.btnMaximizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnMaximizar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(51)))));
-            this.btnMaximizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMaximizar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnMaximizar.Location = new System.Drawing.Point(1338, 0);
-            this.btnMaximizar.Name = "btnMaximizar";
-            this.btnMaximizar.Size = new System.Drawing.Size(32, 29);
-            this.btnMaximizar.TabIndex = 17;
-            this.btnMaximizar.UseVisualStyleBackColor = false;
-            this.btnMaximizar.Click += new System.EventHandler(this.btnMaximizar_Click);
             // 
             // dashboard
             // 
@@ -679,7 +648,7 @@ namespace SBPA
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lbClientesRegistrados;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.PictureBox pictureBox8;
@@ -692,13 +661,11 @@ namespace SBPA
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnCrearCuenta;
         private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnMaximizar;
     }
 }
 

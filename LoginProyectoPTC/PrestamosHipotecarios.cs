@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -483,7 +484,6 @@ namespace SBPA
         {
             try
             {
-
 
                 txtUsuario.Text = dgvDato.CurrentRow.Cells[0].Value.ToString();
                 txtDui.Text = dgvDato.CurrentRow.Cells[1].Value.ToString();
